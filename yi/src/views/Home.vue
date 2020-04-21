@@ -1,18 +1,34 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <el-container>
+      <el-header height="150px">
+        <HomeSearch></HomeSearch>
+        <HomeCarousel></HomeCarousel>
+      </el-header>
+      <el-main>
+        <HomeDaoHang></HomeDaoHang>
+      </el-main>
+      <el-footer></el-footer>
+    </el-container>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+import HomeSearch from "@/components/home/HomeSearch.vue";
+import HomeCarousel from "@/components/home/HomeCarousel.vue"
+import HomeDaoHang from "@/components/home/HomeDaoHang.vue"
 export default {
-  name: 'Home',
+  name: "Home",
   components: {
-    HelloWorld
+    HomeSearch,
+    HomeCarousel,
+    HomeDaoHang
   }
-}
+};
 </script>
+<style  scoped>
+.el-header,
+.el-main{
+  padding: 0;
+}
+</style>
