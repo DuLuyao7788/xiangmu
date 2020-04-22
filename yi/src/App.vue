@@ -12,7 +12,10 @@ export default {
 </script>
 
 <style>
-body {
-  margin: 0;
+html{
+  font-size: 10px;
 }
+ body{
+   margin: 0;
+ }
 </style>
