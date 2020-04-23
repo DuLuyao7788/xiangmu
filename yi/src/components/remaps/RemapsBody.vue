@@ -1,88 +1,32 @@
 <template>
   <div class="body">
-    <div v-for="item in remaps" :key="item.id">
+    <div v-for="item in remaps" :key="item.index" class="tupian">
       <el-image :src="item.image"></el-image>
     </div>
-    
-    <div class="rexiaodiv">
-      <ul class="ul">
-        <li class="li">
-          <div class="tudiv">
-            <el-image src="/images/remaps/goods1.jpg" class="imggood"></el-image>
-          </div>
-          <div class="namediv">
-            <span class="product-name">赛能 硫酸羟氯喹片 0.2 g*10 片</span>
-            <span class="product-name"></span>
-          </div>
-          <h5 class="product-money">￥47</h5>
-        </li>
-        <li class="li">
-          <div class="tudiv">
-            <el-image src="/images/remaps/goods1.jpg" class="imggood"></el-image>
-          </div>
-          <div class="namediv">
-            <span class="product-name">赛能 硫酸羟氯喹片 0.2 g*10 片</span>
-            <span class="product-name"></span>
-          </div>
-          <h5 class="product-money">￥47</h5>
-        </li>
-        <li class="li">
-          <div class="tudiv">
-            <el-image src="/images/remaps/goods1.jpg" class="imggood"></el-image>
-          </div>
-          <div class="namediv">
-            <span class="product-name">赛能 硫酸羟氯喹片 0.2 g*10 片</span>
-            <span class="product-name"></span>
-          </div>
-          <h5 class="product-money">￥47</h5>
-        </li>
-        <li class="li">
-          <div class="tudiv">
-            <el-image src="/images/remaps/goods1.jpg" class="imggood"></el-image>
-          </div>
-          <div class="namediv">
-            <span class="product-name">赛能 硫酸羟氯喹片 0.2 g*10 片</span>
-            <span class="product-name"></span>
-          </div>
-          <h5 class="product-money">￥47</h5>
-        </li>
-        <li class="li">
-          <div class="tudiv">
-            <el-image src="/images/remaps/goods1.jpg" class="imggood"></el-image>
-          </div>
-          <div class="namediv">
-            <span class="product-name">赛能 硫酸羟氯喹片 0.2 g*10 片</span>
-            <span class="product-name"></span>
-          </div>
-          <h5 class="product-money">￥47</h5>
-        </li>
-        <li class="li">
-          <div class="tudiv">
-            <el-image src="/images/remaps/goods1.jpg" class="imggood"></el-image>
-          </div>
-          <div class="namediv">
-            <span class="product-name">赛能 硫酸羟氯喹片 0.2 g*10 片</span>
-            <span class="product-name"></span>
-          </div>
-          <h5 class="product-money">￥47</h5>
-        </li>
-        <li class="li">
-          <div class="tudiv">
-            <el-image src="/images/remaps/goods1.jpg" class="imggood"></el-image>
-          </div>
-          <div class="namediv">
-            <span class="product-name">赛能 硫酸羟氯喹片 0.2 g*10 片</span>
-            <span class="product-name"></span>
-          </div>
-          <h5 class="product-money">￥47</h5>
-        </li>
-      </ul>
+
+    <div class="procontainer">
+      <div class="rexiaodiv">
+        <RemapsBodyComment :remapsbodycomment="remapsbodycomment"></RemapsBodyComment>
+      </div>
+      <div class="rexiaodiv2">
+        <RemapsBodyComment :remapsbodycomment2="remapsbodycomment2"></RemapsBodyComment>
+      </div>
     </div>
   </div>
 </template>
 <script>
+import RemapsBodyComment from './RemapsBodyComment'
 export default {
   name:'RemapsBody',
+  components:{
+    RemapsBodyComment,
+  },
+  data:function(){
+    return{
+      remapsbodycomment:[],
+      remapsbodycomment2:[]
+    }
+  },
   props:{
     remaps:{
       type:Array,
@@ -90,6 +34,14 @@ export default {
         return[];
       }
     },
+  },
+ mounted() {
+     this.$store.dispatch("getRbc").then(results => {
+      this.remapsbodycomment = results;
+    });
+    this.$store.dispatch("getRbc2").then(results =>{
+      this.remapsbodycomment2=results;
+    })
   }
 }
 </script>
@@ -106,21 +58,40 @@ ul,li,h5{
 /* 图片的div */
 .tudiv{
   width: 11.8rem;
-  border: 0.18rem solid rgb(251, 110, 110);
+  border: 0.2rem solid rgb(251, 110, 110);
 }
 /* 设置图片大小*/
 .imggood{
   width: 11.8rem;
   height: 11.8rem;
 }
+/* 设置整体的容器背景颜色 */
+.procontainer{
+  background-color:#EEE;
+  margin-top: -0.2rem;
+}
+/* 设置整体的位置*/
+.rexiaodiv{
+  width: 100%;
+  height: 23.8rem;
+  position: relative;
+  z-index: 0;
+  padding-top: 1rem;
+}
 .ul{
   display: flex;
   flex-direction: row;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  overflow-x: auto;
 }
 .li{
   width: 12.4rem;
   height:21.6rem;
   margin-left: 2rem;
+  box-sizing: border-box;
+  display: inline-block;
 }
 .namediv{
   width: 12.4rem;
@@ -136,13 +107,18 @@ ul,li,h5{
   white-space: normal;
   font-size: 1.2rem;
   overflow: hidden;
+  margin-bottom: 1rem;
 }
 /* 商品价钱 */
 .product-money{
   font-weight: 400;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   color: #FB6E6E;
   border-top: 0.1rem dashed #FB6E6E;
-  padding:0.7rem 0;
+  
+}
+/* 设置第二个商品信息的div */
+.rexiaodiv2{
+  margin-top: 1.2rem;
 }
 </style>

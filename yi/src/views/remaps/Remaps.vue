@@ -21,7 +21,6 @@ export default {
   mounted() {
      this.$store.dispatch("getRemaps").then(results => {
       this.remaps = results;
-      console.log(results)
     });
   },
 }
