@@ -1,7 +1,7 @@
 [
-  {"img":"/images/remaps/good1.jpg","title":"沐舒 一次性防护口罩 50只(蓝色白色随机发货)","money":"￥99"},
-  {"img":"/images/remaps/good2.jpg","title":"可威 磷酸奥司他韦颗粒 15mg*10袋","money":"￥50"},
-  {"img":"/images/remaps/good3.jpg","title":"福森  双黄连口服液   10ml*10支","money":"￥16.5"},
-  {"img":"/images/remaps/good4.jpg","title":"力度伸 维生素C泡腾片 1g*30片","money":"￥53.9"},
-  {"img":"/images/remaps/good5.jpg","title":"以岭 连花清瘟胶囊 0.35g*24粒","money":"￥14.5"}
+  {"img":"/images/remaps/good1.jpg","title":"沐舒 一次性防护口罩 50只(蓝色白色随机发货)","money":"￥99","isgouwuche":true},
+  {"img":"/images/remaps/good2.jpg","title":"可威 磷酸奥司他韦颗粒 15mg*10袋","money":"￥50","isgouwuche":false},
+  {"img":"/images/remaps/good3.jpg","title":"福森  双黄连口服液   10ml*10支","money":"￥16.5","isgouwuche":true},
+  {"img":"/images/remaps/good4.jpg","title":"力度伸 维生素C泡腾片 1g*30片","money":"￥53.9","isgouwuche":true},
+  {"img":"/images/remaps/good5.jpg","title":"以岭 连花清瘟胶囊 0.35g*24粒","money":"￥14.5","isgouwuche":true}
 ]

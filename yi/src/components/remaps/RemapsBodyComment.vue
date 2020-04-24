@@ -8,9 +8,9 @@
           <div class="namediv">
             <span class="product-name">{{product.title}}</span>
           </div>
-          <div class="money-gouwuche" v-if="product.isgouwuche">
+          <div class="money-gouwuche">
             <span class="product-money">{{product.money}}</span>
-            <div class="gouwuchediv">
+            <div class="gouwuchediv" v-if="product.isgouwuche">
               <i class="el-icon-shopping-cart-2 el-icon--right gouwuche"></i>
             </div>
           </div>

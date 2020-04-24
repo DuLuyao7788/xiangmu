@@ -10,7 +10,9 @@ export default new Vuex.Store({
     //商品的信息1
     remapsbodycomment:[],
     //商品信息2
-    remapsbodycomment2:[]
+    remapsbodycomment2:[],
+    //消毒信息
+    xiaodu:[]
   },
   mutations: {
     setRemaps(state,remaps){
@@ -21,6 +23,9 @@ export default new Vuex.Store({
     },
     setRbc2(state,remapsbodycomment2){
       state.remapsbodycomment2=remapsbodycomment2
+    },
+    setXiaoDu(state,xiaodu){
+      state.xiaodu=xiaodu
     }
 
   },
@@ -49,6 +54,16 @@ export default new Vuex.Store({
       return new Promise((resolve,reject)=>{
         Vue.axios.get('/data/remaps/remapsbodycomment2.json').then(results=>{
           state.commit('setRbc2',results.data)
+          resolve(results.data)
+        }).catch(error=>{
+          reject(error)
+        })
+      })
+    },
+    getXiaoDu(state){
+      return new Promise((resolve,reject)=>{
+        Vue.axios.get('/data/remaps/xiaoduproduct.json').then(results=>{
+          state.commit('setXiaoDu',results.data)
           resolve(results.data)
         }).catch(error=>{
           reject(error)
