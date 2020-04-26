@@ -47,25 +47,113 @@
     </div>
     <!--宅家优选 -->
     <div class="chajiayouxuan">
-      <div class="xiaodudiv2">
-        <div class="icon-theme1"></div>
-        <span class="xiaodufanghui">宅家优选</span>
-      </div>
+      <RemapsTuiJian :xiadufanghuispan="xiadufanghuispan"></RemapsTuiJian>
     </div>
     <!--宅家优选(第一个商品信息)  -->
     <div class="chajiayouxuanProduct">
       <RemapsBodyComment :remapsbodycomment="changbeiyao"></RemapsBodyComment>
+    </div>
+    <!-- 感冒发烧药 -->
+    <div class="chajiayouxuan">
+      <RemapsTuiJian :xiadufanghuispan="fashaoyao"></RemapsTuiJian>
+    </div>
+    <!-- 感冒发烧药推荐商品 -->
+    <div class="chajiayouxuanProduct">
+      <RemapsBodyComment :remapsbodycomment="ganmaofashao"></RemapsBodyComment>
+    </div>
+     <!-- 调节免疫力 -->
+    <div class="chajiayouxuan">
+      <RemapsTuiJian :xiadufanghuispan="tiaojiemianyili"></RemapsTuiJian>
+    </div>
+    <!-- 调节免疫力推荐商品 -->
+    <div class="chajiayouxuanProduct">
+      <RemapsBodyComment :remapsbodycomment="mianyili"></RemapsBodyComment>
+    </div>
+    <!-- 流感用药 -->
+    <div class="chajiayouxuan">
+      <RemapsTuiJian :xiadufanghuispan="luganyongyao"></RemapsTuiJian>
+    </div>
+    <!-- 流感用药推荐商品 -->
+    <div class="chajiayouxuanProduct">
+      <RemapsBodyComment :remapsbodycomment="lugan"></RemapsBodyComment>
+    </div>
+    <!-- 小儿感冒药 -->
+    <div class="chajiayouxuan">
+      <RemapsTuiJian :xiadufanghuispan="xiaoeryongyao"></RemapsTuiJian>
+    </div>
+    <!-- 小儿感冒药推荐商品 -->
+    <div class="chajiayouxuanProduct">
+      <RemapsBodyComment :remapsbodycomment="xiaoerganmao"></RemapsBodyComment>
+    </div>
+    <!-- 咳嗽 -->
+    <div class="chajiayouxuan">
+      <RemapsTuiJian :xiadufanghuispan="kesou"></RemapsTuiJian>
+    </div>
+    <!-- 咳嗽推荐商品 -->
+    <div class="chajiayouxuanProduct">
+      <RemapsBodyComment :remapsbodycomment="kesougood"></RemapsBodyComment>
+    </div>
+    
+    <div class="div-jian-ju-xue">
+      <!-- 健康优选 -->
+      <div class="jiankuangyouxuan">
+        <!-- 图标和文字 -->
+        <div class="xiaodudiv2">
+          <div class="icon-theme1"></div>
+          <span class="xiaodufanghui">健康优选</span>
+        </div>
+        <!-- 健康优选的商品 -->
+        <div class="chajiayouxuanProduct">
+          <RemapsBodyComment :remapsbodycomment="jiankuang" :moreInfo="moreInfo"></RemapsBodyComment>
+        </div>
+      </div>
+      <!-- 居家常用 -->
+      <div class="jiankuangyouxuan">
+        <!-- 图标和文字 -->
+        <div class="xiaodudiv2">
+          <div class="icon-theme1"></div>
+          <span class="xiaodufanghui">居家日用</span>
+        </div>
+        <!-- 居家常用的商品 -->
+        <div class="chajiayouxuanProduct">
+          <RemapsBodyComment :remapsbodycomment="jujiariyong"></RemapsBodyComment>
+        </div>
+      </div>
+      <!-- 血糖用品 -->
+      <div class="jiankuangyouxuan">
+        <!-- 图标和文字 -->
+        <div class="xiaodudiv">
+          <div class="icon-theme"></div>
+          <span class="xiaodufanghui">血糖用品</span>
+          <div class="circle"></div>
+          <span class="spanproduct">在线补货  安心居家</span>
+        </div>
+        <!-- 居家常用的商品 -->
+        <div class="chajiayouxuanProduct">
+          <RemapsBodyComment :remapsbodycomment="xuetangyongpin"></RemapsBodyComment>
+        </div>
+      </div>
+      <!-- 不能忽市流感 -->
+      <div class="luganimage">
+        <el-image src="/images/remaps/hushilugan.png"></el-image>
+      </div>
+       <!-- 家庭常备 -->
+      <div>
+        <el-image src="/images/remaps/coudanjingxuan.jpg"></el-image>
+      </div>
     </div>
   </div>
 </template>
 <script>
 import RemapsBodyComment from './RemapsBodyComment'
 import RemapsBodyTaoCang from './RemapsBodyTaoCang'
+import RemapsTuiJian from './RemapsTuiJian'
 export default {
   name:'RemapsBody',
   components:{
     RemapsBodyComment,
-    RemapsBodyTaoCang
+    RemapsBodyTaoCang,
+    RemapsTuiJian
   },
   data:function(){
     return{
@@ -74,7 +162,22 @@ export default {
       xiaodu:[],
       taocanggood:[],
       jiangkuang:[],
-      changbeiyao:[]
+      changbeiyao:[],
+      xiadufanghuispan:'宅家优选',
+      fashaoyao:'感冒烧药用药',
+      ganmaofashao:[],
+      tiaojiemianyili:'调节免疫力',
+      mianyili:[],
+      luganyongyao:'流感用药',
+      lugan:[],
+      xiaoeryongyao:'小儿感冒',
+      xiaoerganmao:[],
+      kesou:'咳嗽',
+      kesougood:[],
+      moreInfo:true,
+      jiankuang:[],
+      jujiariyong:[],
+      xuetangyongpin:[]
     }
   },
   props:{
@@ -103,6 +206,30 @@ export default {
     })
     this.$store.dispatch("getChangBeiYao").then(results =>{
       this.changbeiyao=results;
+    })
+     this.$store.dispatch("getGanMaoFaShao").then(results =>{
+      this.ganmaofashao=results;
+    })
+     this.$store.dispatch("getMianYiLi").then(results =>{
+      this.mianyili=results;
+    })
+    this.$store.dispatch("getLuGanYongYao").then(results =>{
+      this.lugan=results;
+    })
+     this.$store.dispatch("getXiaoErGanMao").then(results =>{
+      this.xiaoerganmao=results;
+    })
+    this.$store.dispatch("getKeSou").then(results =>{
+      this.kesougood=results;
+    })
+    this.$store.dispatch("getJianKuang").then(results =>{
+      this.jiankuang=results;
+    })
+    this.$store.dispatch("getJuJiaRiYong").then(results =>{
+      this.jujiariyong=results;
+    })
+    this.$store.dispatch("getXueTangYongPin").then(results =>{
+      this.xuetangyongpin=results;
     })
     
   }
@@ -229,18 +356,29 @@ ul,li,h5{
 /*宅家优选  */
 .chajiayouxuan{
   width: 41.4rem;
-  height: 4rem;
+  height: 4.4rem;
   background-color: #EEE;
-}
-.xiaodudiv2{
-  font-size: 1.54rem;
-  margin-bottom: 2.2rem;
-  padding-top: 1rem;
 }
 /* 常用备药div */
 .beiyongdiv{
   width:41.4rem;
   height:16.2rem;
+}
+/* 宅家优选商品第一个 */
+.chajiayouxuanProduct{
+  margin-top: 1.4rem;
+  width: 41.4rem;
+  height: 23.8rem;
+}
+/* 整体div控制颜色 */
+.div-jian-ju-xue{
+  background-color:#EEE;
+}
+.xiaodudiv2{
+  width: 41.4rem;
+  height: 4.4rem;
+  font-size: 1.54rem;
+  line-height: 4.4rem;
 }
 /* 图标 */
 .icon-theme1{
@@ -251,9 +389,16 @@ ul,li,h5{
   margin-left: 1.3rem;
   vertical-align: middle;
   margin-bottom: 0.2rem;
+  padding: 0.2rem 0;
 }
-/* 宅家优选商品第一个 */
-.chajiayouxuanProduct{
-  margin-top: 1.4rem;
+/* 消毒防护 */
+.xiaodufanghui{
+  margin-left: 1.3rem;
+  margin-right: 1rem;
+  padding: 0.5rem 0;
+}
+.luganimage{
+  width: 41.44rem;
+  height: 16.575rem;
 }
 </style>

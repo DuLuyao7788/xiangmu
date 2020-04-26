@@ -18,7 +18,21 @@ export default new Vuex.Store({
     //健康商品
     jiankuangproduct:[],
     //常备药1
-    changbeiyao:[]
+    changbeiyao:[],
+    //感冒发烧
+    ganmaofashao:[],
+    //免疫力
+    mianyili:[],
+    //流感感冒
+    luganyongyao:[],
+    //小儿感冒
+    xiaoerganmao:[],
+    //咳嗽
+    kesou:[],
+    jiankuang:[],
+    //居家常用
+    jujiariyong:[],
+    xuetangyongpin:[]
   },
   mutations: {
     setRemaps(state,remaps){
@@ -41,7 +55,32 @@ export default new Vuex.Store({
     },
     setChangBeiYao(state,changbeiyao){
       state.changbeiyao=changbeiyao
-    }
+    },
+    setGanMaoFaShao(state,ganmaofashao){
+      state.ganmaofashao=ganmaofashao
+    },
+    setMianYiLi(state,mianyili){
+      state.mianyili=mianyili
+    },
+    setLuGanYongYao(state,luganyongyao){
+      state.luganyongyao=luganyongyao
+    },
+    setXiaoErGanMao(state,xiaoerganmao){
+      state.xiaoerganmao=xiaoerganmao
+    },
+    setKeSou(state,kesou){
+      state.kesou=kesou
+    },
+    setJianKuang(state,jiankuang){
+      state.jiankuang=jiankuang
+    },
+    setJuJiaRiYong(state,jujiariyong){
+      state.jujiariyong=jujiariyong
+    },
+    setXueTangYongPin(state,xuetangyongpin){
+      state.xuetangyongpin=xuetangyongpin
+    },
+    
   },
   actions: {
     getRemaps(state){
@@ -114,6 +153,87 @@ export default new Vuex.Store({
         })
       })
     },
+    getGanMaoFaShao(state){
+      return new Promise((resolve,reject)=>{
+        Vue.axios.get('/data/remaps/ganmaofashao.json').then(results=>{
+          state.commit('setGanMaoFaShao',results.data)
+          resolve(results.data)
+        }).catch(error=>{
+          reject(error)
+        })
+      })
+    },
+    getMianYiLi(state){
+      return new Promise((resolve,reject)=>{
+        Vue.axios.get('/data/remaps/mianyili.json').then(results=>{
+          state.commit('setMianYiLi',results.data)
+          resolve(results.data)
+        }).catch(error=>{
+          reject(error)
+        })
+      })
+    },
+    getLuGanYongYao(state){
+      return new Promise((resolve,reject)=>{
+        Vue.axios.get('/data/remaps/luganyongyao.json').then(results=>{
+          state.commit('setLuGanYongYao',results.data)
+          resolve(results.data)
+        }).catch(error=>{
+          reject(error)
+        })
+      })
+    },
+    getXiaoErGanMao(state){
+      return new Promise((resolve,reject)=>{
+        Vue.axios.get('/data/remaps/xiaoerganmao.json').then(results=>{
+          state.commit('setXiaoErGanMao',results.data)
+          resolve(results.data)
+        }).catch(error=>{
+          reject(error)
+        })
+      })
+    },
+    getKeSou(state){
+      return new Promise((resolve,reject)=>{
+        Vue.axios.get('/data/remaps/kesou.json').then(results=>{
+          state.commit('setKeSou',results.data)
+          resolve(results.data)
+        }).catch(error=>{
+          reject(error)
+        })
+      })
+    },
+    getJianKuang(state){
+      return new Promise((resolve,reject)=>{
+        Vue.axios.get('/data/remaps/jiankuang.json').then(results=>{
+          state.commit('setJianKuang',results.data)
+          resolve(results.data)
+        }).catch(error=>{
+          reject(error)
+        })
+      })
+    },
+    getJuJiaRiYong(state){
+      return new Promise((resolve,reject)=>{
+        Vue.axios.get('/data/remaps/jujiariyong.json').then(results=>{
+          state.commit('setJuJiaRiYong',results.data)
+          resolve(results.data)
+        }).catch(error=>{
+          reject(error)
+        })
+      })
+    },
+    getXueTangYongPin(state){
+      return new Promise((resolve,reject)=>{
+        Vue.axios.get('/data/remaps/xuetangyongpin.json').then(results=>{
+          state.commit('setXueTangYongPin',results.data)
+          resolve(results.data)
+        }).catch(error=>{
+          reject(error)
+        })
+      })
+    },
+    
   },
   modules: {
   }

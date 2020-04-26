@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="divcontiner">
       <ul class="ul">
-        <li class="li" v-for="product in remapsbodycomment" :key="product.index">
+        <li class="li"  v-for="product in remapsbodycomment" :key="product.index">
           <div class="tudiv">
             <el-image :src="product.img" class="imggood"></el-image>
           </div>
@@ -13,6 +13,15 @@
             <div class="gouwuchediv" v-if="product.isgouwuche">
               <i class="el-icon-shopping-cart-2 el-icon--right gouwuche"></i>
             </div>
+          </div>
+        </li>
+        <li>
+          <div class="more" v-if="moreInfo">
+            <div class="span-i-div">
+              <span class="morespan">MORE</span>
+              <i class="el-icon-caret-right el-icon--right caret-right"></i>
+            </div>
+            <div class="chakan">查看更多</div>
           </div>
         </li>
       </ul>
@@ -34,6 +43,9 @@ export default {
         return[];
       }
     },
+    moreInfo:{
+      default:false
+    }
   },
 }
 </script>
@@ -43,12 +55,17 @@ ul,li,h5{
   margin: 0;
   padding: 0;
 }
+.divcontiner{
+  height: 23.8rem;
+}
 /* 图片的div */
 .tudiv{
-  width: 11.8rem;
+  width: 13rem;
   border: 0.2rem solid rgb(251, 110, 110);
 }
 .ul{
+  width: 41.4rem;
+  height: 23.8rem;
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -60,6 +77,7 @@ ul,li,h5{
   width: 12.4rem;
   height:21.6rem;
   margin-left: 2rem;
+  margin-right: 1.5rem;
   box-sizing: border-box;
   display: inline-block;
 }
@@ -82,7 +100,7 @@ ul,li,h5{
 /* 商品价钱 */
 .product-money{
   font-weight: 400;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   color: #FB6E6E;
   padding:0.7rem 0;
 }
@@ -95,7 +113,7 @@ ul,li,h5{
 }
 /* 购物车图标的div设置margin-top */
 .gouwuchediv{
-  margin-top: 0.5rem;
+  margin-top: 0.8rem;
 }
 /* 购物车的图标 */
 .gouwuche{
@@ -107,5 +125,35 @@ ul,li,h5{
   text-align: center;
   line-height: 3.09rem;
   background-color: #FB6E6E;
+}
+.imggood{
+  width: 13rem;
+  height: 13rem;
+}
+.more{
+  width: 15.6rem;
+  height: 23.8rem;
+  background-color: rgb(251, 110, 110);
+  margin-left: 1.7rem;
+}
+.span-i-div{
+  padding: 6.8rem 0rem 0rem 1rem;
+  color: #fff;
+  font-weight: 500;
+}
+.morespan{
+  font-size: 3.312rem;
+}
+.caret-right{
+  display: inline-block;
+  font-size: 1.3rem;
+  text-align: center;
+  padding-top: 3rem;
+}
+.chakan{
+  font-size: 2rem;
+   color: #fff;
+  font-weight: 500;
+  padding: 0rem 0rem 0rem 1rem;
 }
 </style>

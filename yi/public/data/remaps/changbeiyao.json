@@ -1,9 +1,9 @@
 [
-  {"img":"/images/remaps/beiyao1.jpg","title":"江中 健胃消食片 0.8g*8片*4板","money":"￥12","isgouwuche":false},
-  {"img":"/images/remaps/beiyao2.jpg","title":"杜蕾斯 避孕套LOVE大胆爱10只","money":"￥20","isgouwuche":false},
-  {"img":"/images/remaps/beiyao3.jpg","title":"江中 健胃消食片 0.5g*12片*3板","money":"￥10.8","isgouwuche":false},
+  {"img":"/images/remaps/beiyao1.jpg","title":"江中 健胃消食片 0.8g*8片*4板","money":"￥12","isgouwuche":true},
+  {"img":"/images/remaps/beiyao2.jpg","title":"杜蕾斯 避孕套LOVE大胆爱10只","money":"￥20","isgouwuche":true},
+  {"img":"/images/remaps/beiyao3.jpg","title":"江中 健胃消食片 0.5g*12片*3板","money":"￥10.8","isgouwuche":true},
   {"img":"/images/remaps/beiyao4.jpg","title":"新乐敦 复方门冬维甘滴眼液 13ml ","money":"￥27","isgouwuche":false},
-  {"img":"/images/remaps/beiyao5.jpg","title":"都乐 金嗓子喉片 12片","money":"￥9.9","isgouwuche":false},
+  {"img":"/images/remaps/beiyao5.jpg","title":"都乐 金嗓子喉片 12片","money":"￥9.9","isgouwuche":true},
   {"img":"/images/remaps/beiyao6.jpg","title":"达喜 铝碳酸镁咀嚼片 0.5g*20片","money":"￥25","isgouwuche":true},
   {"img":"/images/remaps/beiyao7.jpg","title":"盘龙云海 排毒养颜胶囊 0.4g*70粒","money":"￥159","isgouwuche":true},
   {"img":"/images/remaps/beiyao8.jpg","title":"康恩贝 肠炎宁片 0.42g*12片*2板","money":"￥20","isgouwuche":true},
