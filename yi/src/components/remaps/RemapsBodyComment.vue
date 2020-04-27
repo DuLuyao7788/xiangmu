@@ -92,10 +92,14 @@ ul,li,h5{
 }
 /* 商品的名字 */
 .product-name{
+  width: 13.5rem;
+  height:3.8rem;
   white-space: normal;
   font-size: 1.34rem;
   line-height: 1.7rem;
   overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
 }
 /* 商品价钱 */
 .product-money{

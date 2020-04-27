@@ -1,5 +1,5 @@
 <template>
-  <div class="header">
+  <div class="header" :class="{'fixedtop':isfixedtop}" ref="root">
     <div class="inner">
       <el-row>
       <el-col :span="4">
@@ -17,16 +17,24 @@
 </template>
 <script>
 export default {
-  name:'RemapsHeader'
+  name:'RemapsHeader',
+  props:{
+   isfixedtop:{
+      type:Boolean,
+      default:false
+    }
+  }
 }
 </script>
 <style scoped>
 .header{
   width: 100%;
-  height:4.2rem;
+  height:4.7rem;
 }
 /* 设置inner */
 .inner{
+  width: 100%;
+  height:4.7rem;
   padding: 1rem 0;
 }
 .el-row{
@@ -53,4 +61,13 @@ export default {
   font-size: 2.2rem;
   color: #6D7089;
 }
+.fixedtop{
+  position: fixed;
+  top:0;
+  width:100%;
+  height: 4.7rem;
+  z-index: 9999;
+  background-color: #fff;
+}
+
 </style>
