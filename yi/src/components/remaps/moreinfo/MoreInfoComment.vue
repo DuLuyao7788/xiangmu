@@ -1,7 +1,7 @@
 <template>
   <div class="divcontiner">
       <ul class="ul">
-        <li class="li"  v-for="product in remapsbodycomment" :key="product.index">
+        <li class="li"  v-for="product in moreinfocomment" :key="product.index">
           <div class="tudiv">
             <el-image :src="product.img" class="imggood"></el-image>
           </div>
@@ -15,43 +15,20 @@
             </div>
           </div>
         </li>
-        <li>
-          <div class="more" v-if="moreInfo" @click="to('/moreinfoPage')">
-            <div class="span-i-div">
-              <span class="morespan">MORE</span>
-              <i class="el-icon-caret-right el-icon--right caret-right"></i>
-            </div>
-            <div class="chakan">查看更多</div>
-          </div>
-        </li>
       </ul>
   </div>
 </template>
 <script>
 export default {
-  name:"RemapsBodyComment",
+  name:"MoreInfoComment",
    props:{
-    remapsbodycomment:{
+    moreinfocomment:{
       type:Array,
       default:function(){
         return[];
       }
     },
-     remapsbodycomment2:{
-      type:Array,
-      default:function(){
-        return[];
-      }
     },
-    moreInfo:{
-      default:false
-    }
-  },
-  methods: {
-    to(router){
-      this.$router.push({path:router})
-    }
-  },
 }
 </script>
 <style scoped>
@@ -66,7 +43,6 @@ ul,li,h5{
 /* 图片的div */
 .tudiv{
   width: 13rem;
-  border: 0.2rem solid rgb(251, 110, 110);
 }
 .ul{
   width: 41.4rem;
