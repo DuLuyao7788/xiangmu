@@ -232,6 +232,7 @@ export default {
       this.xuetangyongpin=results;
     })
     
+    
   }
 }
 </script>

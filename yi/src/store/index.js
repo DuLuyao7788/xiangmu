@@ -38,6 +38,14 @@ export default new Vuex.Store({
     tenyuanzhuanqu1:[],
     //页面点击更多信息里面的10元2专区
     tenyuanzhuanqu2:[],
+    //页面点击更多信息里面的20元1专区
+    twoyuanzhuanqu1:[],
+     //页面点击更多信息里面的20元2专区
+     twoyuanzhuanqu2:[],
+     //页面点击更多信息里面的30元1专区
+     threeyuanzhuanqu1:[],
+      //页面点击更多信息里面的30元2专区
+      threeyuanzhuanqu2:[],
   },
   mutations: {
     setRemaps(state,remaps){
@@ -91,7 +99,18 @@ export default new Vuex.Store({
     setTenYuanZhuanQu2(state,tenyuanzhuanqu2){
       state.tenyuanzhuanqu2=tenyuanzhuanqu2
     },
-    
+    setTwoYuanZhuanQu1(state,twoyuanzhuanqu1){
+      state.twoyuanzhuanqu1=twoyuanzhuanqu1
+    },
+    setTwoYuanZhuanQu2(state,twoyuanzhuanqu2){
+      state.twoyuanzhuanqu2=twoyuanzhuanqu2
+    },
+    setThreeYuanZhuanQu1(state,threeyuanzhuanqu1){
+      state.threeyuanzhuanqu1=threeyuanzhuanqu1
+    },
+    setThreeYuanZhuanQu2(state,threeyuanzhuanqu2){
+      state.threeyuanzhuanqu2=threeyuanzhuanqu2
+    },
   },
   actions: {
     getRemaps(state){
@@ -258,6 +277,46 @@ export default new Vuex.Store({
       return new Promise((resolve,reject)=>{
         Vue.axios.get('/data/remaps/moreinfo/tenyuanzhuanqu2.json').then(results=>{
           state.commit('setTenYuanZhuanQu2',results.data)
+          resolve(results.data)
+        }).catch(error=>{
+          reject(error)
+        })
+      })
+    },
+    getTwoYuanZhuanQu1(state){
+      return new Promise((resolve,reject)=>{
+        Vue.axios.get('/data/remaps/moreinfo/twoYuanZhuanQu1.json').then(results=>{
+          state.commit('setTwoYuanZhuanQu1',results.data)
+          resolve(results.data)
+        }).catch(error=>{
+          reject(error)
+        })
+      })
+    },
+    getTwoYuanZhuanQu2(state){
+      return new Promise((resolve,reject)=>{
+        Vue.axios.get('/data/remaps/moreinfo/twoYuanZhuanQu2.json').then(results=>{
+          state.commit('setTwoYuanZhuanQu2',results.data)
+          resolve(results.data)
+        }).catch(error=>{
+          reject(error)
+        })
+      })
+    },
+    getThreeYuanZhuanQu1(state){
+      return new Promise((resolve,reject)=>{
+        Vue.axios.get('/data/remaps/moreinfo/threeyuanzhuanqu1.json').then(results=>{
+          state.commit('setThreeYuanZhuanQu1',results.data)
+          resolve(results.data)
+        }).catch(error=>{
+          reject(error)
+        })
+      })
+    },
+    getThreeYuanZhuanQu2(state){
+      return new Promise((resolve,reject)=>{
+        Vue.axios.get('/data/remaps/moreinfo/threeyuanzhuanqu2.json').then(results=>{
+          state.commit('setThreeYuanZhuanQu2',results.data)
           resolve(results.data)
         }).catch(error=>{
           reject(error)

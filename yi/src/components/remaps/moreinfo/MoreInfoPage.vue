@@ -4,6 +4,7 @@
       <el-image src="/images/remaps/moreHeader.jpg"></el-image>
     </div>
     <div class="div_product_info">
+      <!-- 10元专区 -->
       <div class="ten_yuan_div">
         <!-- 图标和文字 -->
         <div class="xiaodudiv">
@@ -15,6 +16,36 @@
           <MoreInfoComment :moreinfocomment="moreinfocomment1"></MoreInfoComment>
           <div class="two_info_div">
             <MoreInfoComment :moreinfocomment="moreinfocomment2"></MoreInfoComment>
+          </div>
+        </div>
+      </div>
+      <!-- 20十元专区 -->
+      <div class="ten_yuan_div">
+        <!-- 图标和文字 -->
+        <div class="xiaodudiv">
+          <div class="icon-theme1"></div>
+          <span class="xiaodufanghui">20元左右专区</span>
+        </div>
+        <!-- 健康优选的商品 -->
+        <div class="chajiayouxuanProduct">
+          <MoreInfoComment :moreinfocomment="twoinfo1"></MoreInfoComment>
+          <div class="two_info_div">
+            <MoreInfoComment :moreinfocomment="twoinfo2"></MoreInfoComment>
+          </div>
+        </div>
+      </div>
+      <!-- 30十元专区 -->
+      <div class="ten_yuan_div">
+        <!-- 图标和文字 -->
+        <div class="xiaodudiv">
+          <div class="icon-theme1"></div>
+          <span class="xiaodufanghui">30元左右专区</span>
+        </div>
+        <!-- 健康优选的商品 -->
+        <div class="chajiayouxuanProduct">
+          <MoreInfoComment :moreinfocomment="threeinfo1"></MoreInfoComment>
+          <div class="two_info_div">
+            <MoreInfoComment :moreinfocomment="threeinfo2"></MoreInfoComment>
           </div>
         </div>
       </div>
@@ -31,7 +62,11 @@ export default {
   data:function(){
       return{
         moreinfocomment1:[],
-        moreinfocomment2:[]
+        moreinfocomment2:[],
+        twoinfo1:[],
+        twoinfo2:[],
+        threeinfo1:[],
+        threeinfo2:[],
       }
     },
     mounted() {
@@ -40,6 +75,18 @@ export default {
       })
        this.$store.dispatch("getTenYuanZhuanQu2").then(results =>{
         this.moreinfocomment2=results;
+      })
+      this.$store.dispatch("getTwoYuanZhuanQu1").then(results =>{
+        this.twoinfo1=results;
+      })
+      this.$store.dispatch("getTwoYuanZhuanQu2").then(results =>{
+        this.twoinfo2=results;
+      })
+      this.$store.dispatch("getThreeYuanZhuanQu1").then(results =>{
+        this.threeinfo1=results;
+      })
+       this.$store.dispatch("getThreeYuanZhuanQu2").then(results =>{
+        this.threeinfo2=results;
       })
     },
 
