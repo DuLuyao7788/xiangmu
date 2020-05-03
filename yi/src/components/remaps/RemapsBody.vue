@@ -188,6 +188,11 @@ export default {
       }
     },
   },
+  methods: {
+    to(router){
+      this.$router.push({path:router})
+    }
+  },
  mounted() {
      this.$store.dispatch("getRbc").then(results => {
       this.remapsbodycomment = results;

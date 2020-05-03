@@ -46,6 +46,8 @@ export default new Vuex.Store({
      threeyuanzhuanqu1:[],
       //页面点击更多信息里面的30元2专区
       threeyuanzhuanqu2:[],
+      //goodinfo推荐
+      goodtuijian:[],
   },
   mutations: {
     setRemaps(state,remaps){
@@ -111,6 +113,10 @@ export default new Vuex.Store({
     setThreeYuanZhuanQu2(state,threeyuanzhuanqu2){
       state.threeyuanzhuanqu2=threeyuanzhuanqu2
     },
+    setGoodTuiJian(state,goodtuijian){
+      state.goodtuijian=goodtuijian
+    },
+    
   },
   actions: {
     getRemaps(state){
@@ -323,6 +329,17 @@ export default new Vuex.Store({
         })
       })
     },
+    getGoodTuiJian(state){
+      return new Promise((resolve,reject)=>{
+        Vue.axios.get('/data/remaps/goodinfo/goodtuijian.json').then(results=>{
+          state.commit('setGoodTuiJian',results.data)
+          resolve(results.data)
+        }).catch(error=>{
+          reject(error)
+        })
+      })
+    },
+    
   },
   modules: {
   }
