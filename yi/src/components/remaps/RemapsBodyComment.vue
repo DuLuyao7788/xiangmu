@@ -1,7 +1,7 @@
 <template>
   <div class="divcontiner">
-      <ul class="ul"  @click="to('/goodspage')">
-        <li class="li"  v-for="product in remapsbodycomment" :key="product.index">
+      <ul class="ul"  >
+        <li class="li"  v-for="product in remapsbodycomment" :key="product.index" @click="to('/goodspage')">
           <div class="tudiv">
             <el-image :src="product.img" class="imggood"></el-image>
           </div>

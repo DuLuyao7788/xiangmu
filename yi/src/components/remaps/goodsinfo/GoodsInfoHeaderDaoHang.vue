@@ -1,17 +1,42 @@
 <template>
-  <div class="daohang">
-    <i class="el-icon-arrow-left el-icon--left left-icon"></i>
+  <div class="daohang" :class="{'fixedtop':isfixedtop}" ref="root">
+    <i class="el-icon-arrow-left el-icon--left left-icon" @click="to('/remaps')"></i>
     <ul class="jutijieshao">
-      <li>商品</li>
-      <li>评价</li>
-      <li>详情</li>
+      <li :class="{active:active==1}">商品</li>
+      <li :class="{active:active==2}">评价</li>
+      <li :class="{active:active==3}">详情</li>
     </ul>
     <i class="el-icon-more el-icon--right icon-more"></i>
   </div>
 </template>
 <script>
 export default {
-  name:'GoodsInfoHeaderDaoHang'
+  name:'GoodsInfoHeaderDaoHang',
+  data:function(){
+    return{
+      active:1
+    }
+  },
+  props:{
+    isfixedtop:{
+      type:Boolean,
+      default:false
+    }
+  },
+  methods: {
+    to(router){
+      this.$router.push({path:router})
+    }
+  },
+  mounted () {
+    window.addEventListener('active', () => {
+      if (document.body.clientWidth < 400) {
+        this.active = 1
+      } else {
+        this.active = 2
+      }
+    })
+  }
 }
 </script>
 <style scoped>
@@ -43,6 +68,7 @@ ul,li{
 .jutijieshao li{
   font-weight: 600;
   margin-right: 2rem;
+  margin-bottom: 2rem;
 }
 /* 三个点图标 */
 .icon-more{
@@ -50,5 +76,20 @@ ul,li{
   color: #909399;
   margin-top:1.1rem;
   margin-right: 1.5rem;
+}
+/* 固定的样式 */
+.fixedtop{
+  position: fixed;
+  top: 0;
+  width: 41.4rem;
+  height:4.9rem;
+  z-index: 9999;
+  background-color: #fff;
+}
+/* 激活的时候显示 */
+.active{
+  text-decoration-line: underline;
+  text-decoration-color: blue;
+  text-decoration-style: solid;
 }
 </style>

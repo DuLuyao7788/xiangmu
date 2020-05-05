@@ -104,11 +104,11 @@ export default {
 /* 设置轮播的整体大小的div */
 .lunbodiv{
   width: 41.4rem;
-  height:195.2rem;
+  height:189.6rem;
   background-color: #eee;
 }
 .luimgdiv{
-  width: 100%;
+  width: 41.4rem;
   height:26.4rem;
   text-align: center;
   background-color: white;
@@ -226,5 +226,6 @@ export default {
    width: 42.1rem;
   height: 10rem;
   line-height: 3rem;
+  margin-bottom: 1rem;
 }
 </style>
