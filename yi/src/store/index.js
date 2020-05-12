@@ -48,6 +48,8 @@ export default new Vuex.Store({
       threeyuanzhuanqu2:[],
       //goodinfo推荐
       goodtuijian:[],
+      // 购物车的信息
+      gouwuche:[],
   },
   mutations: {
     setRemaps(state,remaps){
@@ -115,6 +117,9 @@ export default new Vuex.Store({
     },
     setGoodTuiJian(state,goodtuijian){
       state.goodtuijian=goodtuijian
+    },
+    setGouWuChe(state,gouwuche){
+      state.gouwuche=gouwuche
     },
     
   },
@@ -333,6 +338,16 @@ export default new Vuex.Store({
       return new Promise((resolve,reject)=>{
         Vue.axios.get('/data/remaps/goodinfo/goodtuijian.json').then(results=>{
           state.commit('setGoodTuiJian',results.data)
+          resolve(results.data)
+        }).catch(error=>{
+          reject(error)
+        })
+      })
+    },
+    getGouWuChe(state){
+      return new Promise((resolve,reject)=>{
+        Vue.axios.get('/data/gouwuche/gouwuche.json').then(results=>{
+          state.commit('setGouWuChe',results.data)
           resolve(results.data)
         }).catch(error=>{
           reject(error)

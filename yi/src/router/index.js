@@ -4,6 +4,7 @@ import Home from '../views/Home.vue'
 import Remaps from '../views/remaps/Remaps.vue'
 import MoreInfoPage from '../views/remaps/morespage/MorePage.vue'
 import GoodsPage from '../views/remaps/goodspage/GoodsPage.vue'
+import GouWuChe from '../views/gouwuche/GouWuChe.vue'
 Vue.use(VueRouter)
 
   const routes = [
@@ -26,6 +27,11 @@ Vue.use(VueRouter)
     path: '/goodspage',
     name: 'GoodsPage',
     component: GoodsPage
+  },
+  {
+    path: '/gouwuche',
+    name: 'GouWuChe',
+    component: GouWuChe
   },
 ]
 
