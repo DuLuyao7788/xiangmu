@@ -6,12 +6,12 @@
    <!-- 商品介绍 -->
    <div class="goodsContainer">
      <div class="goodsinfo" :style="{height:(item.dec?'32.7rem':'27.2rem')}" v-for="item in gouwuche" :key="item.id">
-       <el-image :src="item.img" class="tupian"></el-image>
+       <el-image :src="'/images/gouwuche/'+item.img" class="tupian"></el-image>
        <div class="name">{{item.title}}</div>
        <div class="price_gouwuche">
          <span class="price">{{item.money}}</span>
          <div v-if="item.isgouwuche">
-           <span v-on:click="click">
+           <span @click="click(item.id)">
              <i class="el-icon-shopping-cart-2 el-icon--right shopping" ></i>
            </span>
          </div>
@@ -31,13 +31,12 @@ export default {
         return[];
       }
     },
-    methods: {
-      click(){
-        console.log(111)
-        this.$emit('click')
+  },
+  methods: {
+      click(index){
+        this.$emit('click',index)
       }
     },
-  }
 }
 </script>
 <style scoped>
