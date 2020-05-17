@@ -346,7 +346,7 @@ export default new Vuex.Store({
     },
     getGouWuChe(state){
       return new Promise((resolve,reject)=>{
-        Vue.axios.get('/data/gouwuche/gouwuche.json').then(results=>{
+        Vue.axios.get('http://127.0.0.1:4000/good').then(results=>{
           state.commit('setGouWuChe',results.data)
           resolve(results.data)
         }).catch(error=>{

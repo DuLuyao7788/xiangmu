@@ -2,7 +2,7 @@
   <div class="gouwuche" ref="root">
     <GouWuCheHeader  ref="souSou" :isfixedtop="souSouTop"></GouWuCheHeader>
     <GouWuCheBody></GouWuCheBody>
-    <GouWuCheGoods :gouwuche="gouwuche" :click="click"></GouWuCheGoods>
+    <!-- <GouWuCheGoods :gouwuche="gouwuche" :click="click"></GouWuCheGoods> -->
     <!-- 联系客服 -->
      <div class="lianxikefu">
       <i class="el-icon-service service"></i>
@@ -13,13 +13,13 @@
 <script>
 import GouWuCheHeader from '@/components/gouwuche/GouWuCheHeader'
 import GouWuCheBody from '@/components/gouwuche/GouWuCheBody'
-import GouWuCheGoods from '@/components/gouwuche/GouWuCheGoods'
+
 export default {
   name:'GouWuChe',
   components:{
     GouWuCheHeader,
-    GouWuCheBody,
-    GouWuCheGoods
+    GouWuCheBody
+    
   },
   data:function(){
     return{
@@ -46,7 +46,7 @@ export default {
   },
   methods: {
     click(){
-      console.log(111)
+     
     }
   },
 }
