@@ -2,7 +2,7 @@
   <div class="sydh">
     <el-row>
       <el-col v-for="(item,i) in homedao" :key="i" :span="4" :offset="(i!=0 && i!= 5) ? 1 : 0">
-        <el-image :src="item.img">
+        <el-image :src="item.img"  style="width: 45px; height: 45px">
           <div slot="error" class="image-slot">
             <i class="el-icon-picture-outline"></i>
           </div>
@@ -37,6 +37,7 @@ export default {
 <style scoped>
 .sydh {
   padding: 10px;
+  background-color: #fff;
 }
 .el-col {
   text-align: center;

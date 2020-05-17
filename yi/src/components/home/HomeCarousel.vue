@@ -23,9 +23,6 @@ export default {
 </script>
 <style  scoped>
 .block{
-    position: absolute;
-    top: 0;
-    z-index: 0;
     width: 100%;
 }
 </style>
