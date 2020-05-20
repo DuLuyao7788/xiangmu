@@ -9,19 +9,43 @@
         </div>
          <div>
             <div>
-                <el-image src="/images/home/jinxuan_big(1).jpg" style="width:100%;heigth:100%"></el-image>
+                <el-image src="/images/home/jinxuan_big(2).jpg" style="width:100%;heigth:100%"></el-image>
             </div>
             <HomeHeathGoods :goodsInfo1="goodsInfo1"></HomeHeathGoods>
         </div>
          <div>
             <div>
-                <el-image src="/images/home/jinxuan_big(1).jpg" style="width:100%;heigth:100%"></el-image>
+                <el-image src="/images/home/jinxuan_big(3).jpg" style="width:100%;heigth:100%"></el-image>
             </div>
             <HomeHeathGoods :goodsInfo1="goodsInfo1"></HomeHeathGoods>
         </div>
          <div>
             <div>
-                <el-image src="/images/home/jinxuan_big(1).jpg" style="width:100%;heigth:100%"></el-image>
+                <el-image src="/images/home/jinxuan_big(4).jpg" style="width:100%;heigth:100%"></el-image>
+            </div>
+            <HomeHeathGoods :goodsInfo1="goodsInfo1"></HomeHeathGoods>
+        </div>
+          <div>
+            <div>
+                <el-image src="/images/home/jinxuan_big(5).jpg" style="width:100%;heigth:100%"></el-image>
+            </div>
+            <HomeHeathGoods :goodsInfo1="goodsInfo1"></HomeHeathGoods>
+        </div>
+          <div>
+            <div>
+                <el-image src="/images/home/jinxuan_big(6).jpg" style="width:100%;heigth:100%"></el-image>
+            </div>
+            <HomeHeathGoods :goodsInfo1="goodsInfo1"></HomeHeathGoods>
+        </div>
+          <div>
+            <div>
+                <el-image src="/images/home/jinxuan_big(7).jpg" style="width:100%;heigth:100%"></el-image>
+            </div>
+            <HomeHeathGoods :goodsInfo1="goodsInfo1"></HomeHeathGoods>
+        </div>
+          <div>
+            <div>
+                <el-image src="/images/home/jinxuan_big(8).jpg" style="width:100%;heigth:100%"></el-image>
             </div>
             <HomeHeathGoods :goodsInfo1="goodsInfo1"></HomeHeathGoods>
         </div>

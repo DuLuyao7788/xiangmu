@@ -5,6 +5,7 @@ import Remaps from '../views/remaps/Remaps.vue'
 import MoreInfoPage from '../views/remaps/morespage/MorePage.vue'
 import GoodsPage from '../views/remaps/goodspage/GoodsPage.vue'
 import GouWuChe from '../views/gouwuche/GouWuChe.vue'
+import Search from '../views/home/Search.vue'
 Vue.use(VueRouter)
 
   const routes = [
@@ -33,6 +34,12 @@ Vue.use(VueRouter)
     name: 'GouWuChe',
     component: GouWuChe
   },
+  {
+    // 搜索页面
+    path: '/search',
+    name: 'Search',
+    component: Search
+  }
 ]
 
 const router = new VueRouter({

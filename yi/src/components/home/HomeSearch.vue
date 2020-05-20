@@ -4,7 +4,7 @@
       <img src="/images/home/logo1.png" alt width="30px" height="30px" />
       <a href class="address">安徽</a>
     </div>
-    <div class="inner">
+    <div class="inner" @click="to('/search')">
       <i class="el-icon-search el-icon--left"></i>
       <span>请输入商品名称</span>
     </div>
@@ -24,18 +24,26 @@ export default {
       type: Boolean,
       default: true
     }
+  },
+  methods: {
+    to(router){
+      this.$router.push({path:router})
+    }
   }
 };
 </script>
 <style  scoped>
 .sou-suo {
+  padding: .5rem 0;
   display: flex;
   width: 100%;
   justify-content: space-between;
   font-size: 14px;
-  color: #fff;
+  /* color: #fff; */
+  color: #999;
   z-index: 9999;
-  background-color: transparent;
+  /* background-color: transparent; */
+  background-color: #f7f7f7;
 }
 .sou-suo .address1 {
   margin-left:1rem;

@@ -1,0 +1,47 @@
+[
+  {
+    "img": "/images/remaps/moreinfo/ten_after3.jpg",
+    "title": "苏春 珍珠明目滴眼液 8ml 总五只",
+    "money": "￥6.5",
+    "isgouwuche": true
+  },
+  {
+    "img": "/images/remaps/moreinfo/ten_after4.jpg",
+    "title": "三金 西瓜霜清咽含片 1.8g*16片",
+    "money": "￥9",
+    "isgouwuche": false
+  },
+  {
+    "img": "/images/remaps/moreinfo/ten_after10.jpg",
+    "title": "双药 麻杏止咳片 0.26g*24片",
+    "money": "￥5.3",
+    "isgouwuche": true
+  },
+  {
+    "img": "/images/remaps/moreinfo/ten_after21.jpg",
+    "title": "桑海 风寒感冒颗粒 8g*9袋",
+    "money": "￥10.5",
+    "isgouwuche": true
+  },
+  {
+    "img": "/images/remaps/moreinfo/ten_after5.jpg",
+    "title": "约斯夫变色型医用退热贴 4贴",
+    "money": "￥9.9",
+    "isgouwuche": true
+  },
+  {
+    "img": "/images/remaps/moreinfo/twoyuan14.jpg",
+    "title": "金戈 枸橼酸西地那非片 25mg*14片",
+    "money": "￥198"
+  },
+  {
+    "img": "/images/remaps/moreinfo/twoyuan15.jpg",
+    "title": "左洛复 盐酸舍曲林片 50mg*14片",
+    "money": "￥79"
+  },
+  {
+    "img": "/images/remaps/moreinfo/twoyuan16.jpg",
+    "title": "汇博医疗 先防时代 医用外科口罩 5只/袋",
+    "money": "￥12.9"
+  }
+]
