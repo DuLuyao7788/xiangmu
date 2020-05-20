@@ -1,0 +1,42 @@
+[
+    {
+        "id": "1",
+        "illnessName": "腱鞘炎"
+    },
+    {
+        "id": "2",
+        "illnessName": "胰腺癌"
+    },
+    {
+        "id": "3",
+        "illnessName": "鸡胸"
+    },
+    {
+        "id": "4",
+        "illnessName": "结节性红斑"
+    },
+    {
+        "id": "5",
+        "illnessName": "附件炎"
+    },
+    {
+        "id": "6",
+        "illnessName": "肾下垂"
+    },
+    {
+        "id": "7",
+        "illnessName": "附睾炎"
+    },
+    {
+        "id": "8",
+        "illnessName": "滑膜炎"
+    },
+    {
+        "id": "9",
+        "illnessName": "肾下垂"
+    },
+    {
+        "id": "10",
+        "illnessName": "附件炎"
+    }
+]

@@ -5,12 +5,24 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
     state: {
-        homegoodsInfo: []
+        homegoodsInfo: [],
+        illness:[],
+        typeTui:[],
+        tuiList:[],
     },
     mutations: {
         setHomeGoodsInfo(state, homegoodsInfo) {
             state.homegoodsInfo = homegoodsInfo
         },
+        setIllness(state, illness) {
+            state.illness = illness
+        },
+        setTypeTui(state,typeTui){
+            state.typeTui=typeTui
+        },
+        setTuiList(state,tuiList){
+            state.tuiList=tuiList
+        }
     },
     actions: {
         getHomeGoodsInfo(state) {
@@ -22,6 +34,36 @@ export default new Vuex.Store({
                     reject(error)
                 })
             })
+        },
+        getIllness(state) {
+            return new Promise((resolve, reject) => {
+              axios.get('/data/home/illnessList.json').then(results => {
+                    state.commit('setIllness', results.data)
+                    resolve(results.data)
+                }).catch(error => {
+                    reject(error)
+                })
+            })
+        },
+        getTypeTui(state){
+            return new Promise((resolve, reject) => {
+                axios.get('/data/home/typeTui.json').then(results => {
+                      state.commit('setTypeTui', results.data)
+                      resolve(results.data)
+                  }).catch(error => {
+                      reject(error)
+                  })
+              })
+        },
+        getTuiList(state){
+            return new Promise((resolve, reject) => {
+                axios.get('/data/home/tuiList.json').then(results => {
+                      state.commit('setTuiList', results.data)
+                      resolve(results.data)
+                  }).catch(error => {
+                      reject(error)
+                  })
+              })
         }
     }
 })

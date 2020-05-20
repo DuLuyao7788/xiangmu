@@ -1,0 +1,9 @@
+[
+    {"id":1,"illnessName":"商品推荐"},
+    {"id":2,"illnessName":"关键词聚合推荐"},
+    {"id":3,"illnessName":"资讯类目推荐"},
+    {"id":4,"illnessName":"热门商品推荐"},
+    {"id":5,"illnessName":"热搜词推荐"},
+    {"id":6,"illnessName":"问题推荐"},
+    {"id":7,"illnessName":"资讯推荐"}
+]

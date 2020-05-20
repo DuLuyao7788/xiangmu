@@ -1,7 +1,7 @@
 <template>
    <div class="divcontiner">
       <ul class="ul"  >
-        <li class="li"  v-for="product in goodsInfo1" :key="product.index" @click="to('/goodspage')">
+        <li class="li"  v-for="product in goodsInfo1" :key="product.index">
           <div class="tudiv">
             <el-image :src="product.img" class="imggood"></el-image>
           </div>

@@ -38,7 +38,7 @@ export default {
   background-color: transparent;
 }
 .sou-suo .address1 {
-  margin-left:2rem;
+  margin-left:1rem;
   margin-right:1rem;
   width: 95px;
   display: flex;
@@ -65,19 +65,18 @@ export default {
 .sou-suo .zixun {
   display: flex;
   flex-direction: row;
-  width: 100px;
+  width: 70px;
   margin-left:2rem;
 }
 .sou-suo .zixun p {
   margin: 0;
-  font-size: 14px;
+  font-size: 1rem;
 }
 .el-icon-chat-line-square {
-  font-size: 30px;
+  font-size: 25px;
 }
 .sou-suo.fixed-top {
   position: fixed;
   top: 0;
-  width: calc(100% - 40px);
 }
 </style>

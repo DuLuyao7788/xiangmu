@@ -27,7 +27,7 @@ export default {
         { id: 7, title: "轻松找药", img: "/images/home/homedao7.png" },
         { id: 8, title: "轻松找药", img: "/images/home/homedao8.png" },
         { id: 9, title: "轻松找药", img: "/images/home/homedao9.png" },
-        { id: 10, title: "轻松找药", img: "/images/home/homedao10.png" }
+        { id: 10, title: "轻松找药",img: "/images/home/homedao10.png" }
       ]
     };
   }

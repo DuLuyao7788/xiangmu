@@ -5,8 +5,8 @@
 </div>
 </template>
 <script>
-import HomeHeathTime from './heath/HomeHeathTime'
-import HomeHeathGoods from './heath/HomeHeathGoods'
+import HomeHeathTime from './HomeHeathTime'
+import HomeHeathGoods from './HomeHeathGoods'
 export default {
   name:"HomGoodsInfo",
   components:{

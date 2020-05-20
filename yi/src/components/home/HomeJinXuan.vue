@@ -1,6 +1,6 @@
 <template>
     <div class="homejin">
-        <h1><el-image src="/images/home/jin_logo.png" style="width:18px;height:18px"></el-image>精选专题</h1>
+       <HomeTitle img="/images/home/jin_logo.png" title="精选专题"></HomeTitle>
         <div class="jinxuan">
             <div>
                 <el-image src="/images/home/jinxuan_big(1).jpg" style="width:100%;heigth:100%"></el-image>
@@ -29,9 +29,11 @@
 </template>
 <script>
 import HomeHeathGoods from './heath/HomeHeathGoods'
+import HomeTitle from './ill/HomeTitle'
 export default {
     components:{
-        HomeHeathGoods
+        HomeHeathGoods,
+        HomeTitle
     },
       props:{
     goodsInfo1:{

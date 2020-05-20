@@ -12,8 +12,12 @@
           <el-image src="/images/home/heath-bottom.jpg"></el-image>
         </div>
         <HomeJinXuan :goodsInfo1="goodsInfo1"></HomeJinXuan>
+        <Homeillness :illness="illness"></Homeillness>
+        <HomeTypeTui :typeTui="typeTui" :tuiList="tuiList"></HomeTypeTui>
       </el-main>
-      <el-footer></el-footer>
+      <el-footer>
+        <HomeFooter></HomeFooter>
+      </el-footer>
     </el-container>
   </div>
 </template>
@@ -22,8 +26,11 @@
 import HomeSearch from "@/components/home/HomeSearch.vue";
 import HomeCarousel from "@/components/home/HomeCarousel.vue";
 import HomeDaoHang from "@/components/home/HomeDaoHang.vue";
-import HomeGoodsInfo from "@/components/home/HomeGoodsInfo.vue";
+import HomeGoodsInfo from "@/components/home/heath/HomeGoodsInfo.vue";
 import HomeJinXuan from "@/components/home/HomeJinXuan";
+import Homeillness from "@/components/home/ill/Homeillness"
+import HomeFooter from "@/components/home/HomeFooter"
+import HomeTypeTui from "@/components/home/TypeTui/HomeTypeTui"
 import store from "@/store/home.js";
 export default {
   name: "Home",
@@ -32,16 +39,31 @@ export default {
     HomeCarousel,
     HomeDaoHang,
     HomeGoodsInfo,
-    HomeJinXuan
+    HomeJinXuan,
+    Homeillness,
+    HomeFooter,
+    HomeTypeTui
   },
   data() {
     return {
-      goodsInfo1: []
+      goodsInfo1: [],
+      illness:[],
+      typeTui:[],
+      tuiList:[]
     };
   },
   mounted() {
     this.$store.dispatch("getHomeGoodsInfo").then(results => {
       this.goodsInfo1 = results;
+    });
+     this.$store.dispatch("getIllness").then(results => {
+      this.illness = results;
+    });
+    this.$store.dispatch("getTypeTui").then(results => {
+      this.typeTui = results;
+    });
+     this.$store.dispatch("getTuiList").then(results => {
+      this.tuiList = results;
     });
   },
   store
@@ -52,5 +74,8 @@ export default {
 .el-main {
   padding: 0;
   background-color: #f7f7f7;
+}
+.el-footer{
+  padding: 0;
 }
 </style>
