@@ -1,0 +1,1423 @@
+[
+    {
+        "id": 1,
+        "image": "/images/home/jinxuan_big(1).jpg",
+        "goods": [
+            {
+                "img": "/images/remaps/moreinfo/twoyuans1.jpg",
+                "title": "【买3送1 买5送2 】皇后牌 片仔癀珍珠霜 25g",
+                "money": "￥17.8",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans2.jpg",
+                "title": "杜蕾斯 避孕套LOVE大胆爱10只",
+                "money": "￥12",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans3.jpg",
+                "title": "快克 复方氨酚烷胺胶囊 10粒",
+                "money": "￥14.8",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans4.jpg",
+                "title": "白云山 小柴胡颗粒 10g*10袋",
+                "money": "￥15.5",
+                "isgouwuche": false
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans5.jpg",
+                "title": "同仁堂 六味地黄丸 9g*10丸",
+                "money": "￥16.6",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans6.jpg",
+                "title": "九芝堂 六味地黄丸 200丸",
+                "money": "￥17.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans7.jpg",
+                "title": "毓婷 左炔诺孕酮片 0.75mg*2片",
+                "money": "￥14",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans8.jpg",
+                "title": "中美 史克肠虫清 阿苯达唑片 10片 肠虫清儿童口服打虫药成年蛔虫病蛲虫病",
+                "money": "￥14.5",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans9.jpg",
+                "title": "丁桂 丁桂儿脐贴 1.6g*2贴",
+                "money": "￥16.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans10.jpg",
+                "title": "京都念慈菴 金桔柠檬糖 2.5g*18粒 45g",
+                "money": "￥16",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans11.jpg",
+                "title": "明安旭 左旋肉碱黑咖啡(新)8g*10支",
+                "money": "￥19.8",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans12.jpg",
+                "title": "华素片 西地碘含片 1.5mg*30片",
+                "money": "￥16",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans13.jpg",
+                "title": "意可贴 醋酸地塞米松口腔贴片 0.3mg*5片",
+                "money": "￥25",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans14.jpg",
+                "title": "【2件减5元 4件减15元】妇炎洁 植物本草抑菌洗液 280ml",
+                "money": "￥19.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans15.jpg",
+                "title": "名流1g套（方包）10只装",
+                "money": "￥12",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans16.jpg",
+                "title": "白云山 明兴 清开灵胶囊 0.25g*24粒",
+                "money": "￥16",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans17.jpg",
+                "title": "三九/999 小儿氨酚黄那敏颗粒 6g*10袋 （甜橙味)",
+                "money": "￥12",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans18.jpg",
+                "title": "敖东 安神补脑液 10ml*10支",
+                "money": "￥20.5",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans19.jpg",
+                "title": "万通 益气养血口服液 10m*10支",
+                "money": "￥20.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans20.jpg",
+                "title": "福瑞达 舒腹贴膏 4片",
+                "money": "￥17.5",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans21.jpg",
+                "title": "整肠生 地衣芽孢杆菌活菌胶囊 0.25g*12粒",
+                "money": "￥18.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans22.jpg",
+                "title": "绿健园 维生素C压片糖果（甜橙味） 0.5g/片*60片",
+                "money": "￥19.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans23.jpg",
+                "title": "康美 茉莉花 20克/盒",
+                "money": "￥15",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans24.jpg",
+                "title": "佛慈 耳聋左慈丸 200粒",
+                "money": "￥18",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans25.jpg",
+                "title": "曼秀雷敦 毛孔控油净透洁面乳100g 控油深层洁面乳",
+                "money": "￥19.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans26.jpg",
+                "title": "杜蕾斯 避孕套LOVE大胆爱10只",
+                "money": "￥20",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans27.jpg",
+                "title": "康恩贝 肠炎宁片 0.42g*12片*2板",
+                "money": "￥19.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans28.jpg",
+                "title": "三公仔 小儿七星茶颗粒 7g*10袋",
+                "money": "￥18",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans30.jpg",
+                "title": "雷允上 上雷牌 山楂特等150g（生）",
+                "money": "￥18",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans31.jpg",
+                "title": "以岭 陈皮 陈皮干 50g",
+                "money": "￥18",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans32.jpg",
+                "title": "马应龙 麝香痔疮膏 20g",
+                "money": "￥19.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans13.jpg",
+                "title": "吗丁啉 多潘立酮片 10mg*30片",
+                "money": "￥20.9",
+                "isgouwuche": true
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "image": "/images/home/jinxuan_big(2).jpg",
+        "goods": [
+            {
+                "img": "/images/remaps/moreinfo/twoyuans1.jpg",
+                "title": "【买3送1 买5送2 】皇后牌 片仔癀珍珠霜 25g",
+                "money": "￥17.8",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans2.jpg",
+                "title": "杜蕾斯 避孕套LOVE大胆爱10只",
+                "money": "￥12",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans3.jpg",
+                "title": "快克 复方氨酚烷胺胶囊 10粒",
+                "money": "￥14.8",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans4.jpg",
+                "title": "白云山 小柴胡颗粒 10g*10袋",
+                "money": "￥15.5",
+                "isgouwuche": false
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans5.jpg",
+                "title": "同仁堂 六味地黄丸 9g*10丸",
+                "money": "￥16.6",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans6.jpg",
+                "title": "九芝堂 六味地黄丸 200丸",
+                "money": "￥17.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans7.jpg",
+                "title": "毓婷 左炔诺孕酮片 0.75mg*2片",
+                "money": "￥14",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans8.jpg",
+                "title": "中美 史克肠虫清 阿苯达唑片 10片 肠虫清儿童口服打虫药成年蛔虫病蛲虫病",
+                "money": "￥14.5",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans9.jpg",
+                "title": "丁桂 丁桂儿脐贴 1.6g*2贴",
+                "money": "￥16.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans10.jpg",
+                "title": "京都念慈菴 金桔柠檬糖 2.5g*18粒 45g",
+                "money": "￥16",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans11.jpg",
+                "title": "明安旭 左旋肉碱黑咖啡(新)8g*10支",
+                "money": "￥19.8",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans12.jpg",
+                "title": "华素片 西地碘含片 1.5mg*30片",
+                "money": "￥16",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans13.jpg",
+                "title": "意可贴 醋酸地塞米松口腔贴片 0.3mg*5片",
+                "money": "￥25",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans14.jpg",
+                "title": "【2件减5元 4件减15元】妇炎洁 植物本草抑菌洗液 280ml",
+                "money": "￥19.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans15.jpg",
+                "title": "名流1g套（方包）10只装",
+                "money": "￥12",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans16.jpg",
+                "title": "白云山 明兴 清开灵胶囊 0.25g*24粒",
+                "money": "￥16",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans17.jpg",
+                "title": "三九/999 小儿氨酚黄那敏颗粒 6g*10袋 （甜橙味)",
+                "money": "￥12",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans18.jpg",
+                "title": "敖东 安神补脑液 10ml*10支",
+                "money": "￥20.5",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans19.jpg",
+                "title": "万通 益气养血口服液 10m*10支",
+                "money": "￥20.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans20.jpg",
+                "title": "福瑞达 舒腹贴膏 4片",
+                "money": "￥17.5",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans21.jpg",
+                "title": "整肠生 地衣芽孢杆菌活菌胶囊 0.25g*12粒",
+                "money": "￥18.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans22.jpg",
+                "title": "绿健园 维生素C压片糖果（甜橙味） 0.5g/片*60片",
+                "money": "￥19.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans23.jpg",
+                "title": "康美 茉莉花 20克/盒",
+                "money": "￥15",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans24.jpg",
+                "title": "佛慈 耳聋左慈丸 200粒",
+                "money": "￥18",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans25.jpg",
+                "title": "曼秀雷敦 毛孔控油净透洁面乳100g 控油深层洁面乳",
+                "money": "￥19.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans26.jpg",
+                "title": "杜蕾斯 避孕套LOVE大胆爱10只",
+                "money": "￥20",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans27.jpg",
+                "title": "康恩贝 肠炎宁片 0.42g*12片*2板",
+                "money": "￥19.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans28.jpg",
+                "title": "三公仔 小儿七星茶颗粒 7g*10袋",
+                "money": "￥18",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans30.jpg",
+                "title": "雷允上 上雷牌 山楂特等150g（生）",
+                "money": "￥18",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans31.jpg",
+                "title": "以岭 陈皮 陈皮干 50g",
+                "money": "￥18",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans32.jpg",
+                "title": "马应龙 麝香痔疮膏 20g",
+                "money": "￥19.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans13.jpg",
+                "title": "吗丁啉 多潘立酮片 10mg*30片",
+                "money": "￥20.9",
+                "isgouwuche": true
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "image": "/images/home/jinxuan_big(3).jpg",
+        "goods": [
+            {
+                "img": "/images/remaps/moreinfo/twoyuans1.jpg",
+                "title": "【买3送1 买5送2 】皇后牌 片仔癀珍珠霜 25g",
+                "money": "￥17.8",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans2.jpg",
+                "title": "杜蕾斯 避孕套LOVE大胆爱10只",
+                "money": "￥12",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans3.jpg",
+                "title": "快克 复方氨酚烷胺胶囊 10粒",
+                "money": "￥14.8",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans4.jpg",
+                "title": "白云山 小柴胡颗粒 10g*10袋",
+                "money": "￥15.5",
+                "isgouwuche": false
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans5.jpg",
+                "title": "同仁堂 六味地黄丸 9g*10丸",
+                "money": "￥16.6",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans6.jpg",
+                "title": "九芝堂 六味地黄丸 200丸",
+                "money": "￥17.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans7.jpg",
+                "title": "毓婷 左炔诺孕酮片 0.75mg*2片",
+                "money": "￥14",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans8.jpg",
+                "title": "中美 史克肠虫清 阿苯达唑片 10片 肠虫清儿童口服打虫药成年蛔虫病蛲虫病",
+                "money": "￥14.5",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans9.jpg",
+                "title": "丁桂 丁桂儿脐贴 1.6g*2贴",
+                "money": "￥16.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans10.jpg",
+                "title": "京都念慈菴 金桔柠檬糖 2.5g*18粒 45g",
+                "money": "￥16",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans11.jpg",
+                "title": "明安旭 左旋肉碱黑咖啡(新)8g*10支",
+                "money": "￥19.8",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans12.jpg",
+                "title": "华素片 西地碘含片 1.5mg*30片",
+                "money": "￥16",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans13.jpg",
+                "title": "意可贴 醋酸地塞米松口腔贴片 0.3mg*5片",
+                "money": "￥25",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans14.jpg",
+                "title": "【2件减5元 4件减15元】妇炎洁 植物本草抑菌洗液 280ml",
+                "money": "￥19.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans15.jpg",
+                "title": "名流1g套（方包）10只装",
+                "money": "￥12",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans16.jpg",
+                "title": "白云山 明兴 清开灵胶囊 0.25g*24粒",
+                "money": "￥16",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans17.jpg",
+                "title": "三九/999 小儿氨酚黄那敏颗粒 6g*10袋 （甜橙味)",
+                "money": "￥12",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans18.jpg",
+                "title": "敖东 安神补脑液 10ml*10支",
+                "money": "￥20.5",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans19.jpg",
+                "title": "万通 益气养血口服液 10m*10支",
+                "money": "￥20.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans20.jpg",
+                "title": "福瑞达 舒腹贴膏 4片",
+                "money": "￥17.5",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans21.jpg",
+                "title": "整肠生 地衣芽孢杆菌活菌胶囊 0.25g*12粒",
+                "money": "￥18.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans22.jpg",
+                "title": "绿健园 维生素C压片糖果（甜橙味） 0.5g/片*60片",
+                "money": "￥19.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans23.jpg",
+                "title": "康美 茉莉花 20克/盒",
+                "money": "￥15",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans24.jpg",
+                "title": "佛慈 耳聋左慈丸 200粒",
+                "money": "￥18",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans25.jpg",
+                "title": "曼秀雷敦 毛孔控油净透洁面乳100g 控油深层洁面乳",
+                "money": "￥19.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans26.jpg",
+                "title": "杜蕾斯 避孕套LOVE大胆爱10只",
+                "money": "￥20",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans27.jpg",
+                "title": "康恩贝 肠炎宁片 0.42g*12片*2板",
+                "money": "￥19.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans28.jpg",
+                "title": "三公仔 小儿七星茶颗粒 7g*10袋",
+                "money": "￥18",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans30.jpg",
+                "title": "雷允上 上雷牌 山楂特等150g（生）",
+                "money": "￥18",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans31.jpg",
+                "title": "以岭 陈皮 陈皮干 50g",
+                "money": "￥18",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans32.jpg",
+                "title": "马应龙 麝香痔疮膏 20g",
+                "money": "￥19.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans13.jpg",
+                "title": "吗丁啉 多潘立酮片 10mg*30片",
+                "money": "￥20.9",
+                "isgouwuche": true
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "image": "/images/home/jinxuan_big(4).jpg",
+        "goods": [
+            {"img":"/images/remaps/moreinfo/thress-1.jpg","title":"慢严舒柠 清喉利咽颗粒 5g*8袋","money":"￥29","isgouwuche":true},
+            {"img":"/images/remaps/moreinfo/thress-2.jpg","title":"达芬霖 盐酸羟甲唑啉喷雾剂 20ml慢严舒柠 清喉利咽颗粒 5g*8袋","money":"￥29.5","isgouwuche":true},
+            {"img":"/images/remaps/moreinfo/thress-3.jpg","title":"云南白药 云南白药创可贴 1.5cm*2.3cm*100片","money":"￥22.8","isgouwuche":true},
+            {"img":"/images/remaps/moreinfo/thress-4.jpg","title":"小林 退热贴（冰宝贴）婴儿装 12贴","money":"￥27","isgouwuche":false},
+            {"img":"/images/remaps/moreinfo/thress-5.jpg","title":"富露施 乙酰半胱氨酸泡腾片 600mg*4片","money":"￥23","isgouwuche":true},
+            {"img":"/images/remaps/moreinfo/thress-6.jpg","title":"江中 强力枇杷露 180ml","money":"￥28","isgouwuche":true},
+            {"img":"/images/remaps/moreinfo/thress-7.jpg","title":"妻之友 壬苯醇醚栓 100mg*10粒","money":"￥21","isgouwuche":true},
+            {"img":"/images/remaps/moreinfo/thress-8.jpg","title":"同仁堂 生脉饮（党参方） 10ml*10支","money":"￥25","isgouwuche":true},
+            {"img":"/images/remaps/moreinfo/thress-9.jpg","title":"仲景 六味地黄丸（浓缩丸） 360丸","money":"￥28.5","isgouwuche":true},
+            {"img":"/images/remaps/moreinfo/thress-10.jpg","title":"999 气滞胃痛颗粒 5g*9袋","money":"￥26.9","isgouwuche":true},
+            {"img":"/images/remaps/moreinfo/thress-11.jpg","title":"马应龙 麝香痔疮栓  1.5g*12粒","money":"￥24.5","isgouwuche":true},
+            {"img":"/images/remaps/moreinfo/thress-12.jpg","title":"太阳神 猴头菇胃肠保健口服液 10ml*10支","money":"￥28","isgouwuche":true},
+            {"img":"/images/remaps/moreinfo/thress-13.jpg","title":"姿美堂 透明质酸钠鱼胶原蛋白维E粉（4条装） 5g*4袋","money":"￥29.9","isgouwuche":true},
+            {"img":"/images/remaps/moreinfo/thress-14.jpg","title":"小施尔康 小儿多维生素咀嚼片（10） 30片","money":"￥27","isgouwuche":true},
+            {"img":"/images/remaps/moreinfo/thress-15.jpg","title":"慢严舒柠 复方青橄榄利咽含片 0.5g*24片","money":"￥24","isgouwuche":true},
+            {"img":"/images/remaps/moreinfo/thress-16.jpg","title":"雅风宁 齿痛消炎灵颗粒 20g*4袋","money":"￥24","isgouwuche":true},
+            {"img":"/images/remaps/moreinfo/thress-17.jpg","title":"小林 退热贴（冰宝贴）儿童用 6片特惠装退烧贴降温贴散热贴 感冒贴冰凉贴","money":"￥26","isgouwuche":true},
+            {"img":"/images/remaps/moreinfo/thress-18.jpg","title":"云南白药牙膏薄荷香型210g","money":"￥27.8","isgouwuche":true},
+            {"img":"/images/remaps/moreinfo/thress-19.jpg","title":"第6感冰火凸点螺纹12只","money":"￥26","isgouwuche":true},
+            {"img":"/images/remaps/moreinfo/thress-20.jpg","title":"神苗 小儿清肺化痰颗粒 6g*10袋","money":"￥29.8","isgouwuche":true},
+            {"img":"/images/remaps/moreinfo/thress-21.jpg","title":"白云山 氢溴酸右美沙芬片 15mg*24片","money":"￥11.8","isgouwuche":true},
+            {"img":"/images/remaps/moreinfo/thress-22.jpg","title":"德众 玉屏风颗粒 5g*12袋","money":"￥22.8","isgouwuche":true},
+            {"img":"/images/remaps/moreinfo/thress-23.jpg","title":"马应龙 痔炎消片 0.53g*30片","money":"￥32","isgouwuche":true},
+            {"img":"/images/remaps/moreinfo/thress-24.jpg","title":"康美 贡菊菊花茶 50g","money":"￥23","isgouwuche":true},
+            {"img":"/images/remaps/moreinfo/thress-25.jpg","title":"小乐敦 复方牛磺酸滴眼液 13ml","money":"￥27","isgouwuche":true},
+            {"img":"/images/remaps/moreinfo/thress-26.jpg","title":"云南白药 牙膏 留兰香型 180g","money":"￥26.8","isgouwuche":true},
+            {"img":"/images/remaps/moreinfo/thress-27.jpg","title":"【2件减5元 4件减15元】片仔癀 祛痘活肤洁面乳80g ","money":"￥19.9","isgouwuche":true},
+            {"img":"/images/remaps/moreinfo/thress-28.jpg","title":"赤尾 黄金超薄大储12只装避孕套 ","money":"￥29","isgouwuche":true}
+          ]
+    },
+    {
+        "id": 5,
+        "image": "/images/home/jinxuan_big(5).jpg",
+        "goods": [
+            {
+                "img": "/images/remaps/moreinfo/twoyuans1.jpg",
+                "title": "【买3送1 买5送2 】皇后牌 片仔癀珍珠霜 25g",
+                "money": "￥17.8",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans2.jpg",
+                "title": "杜蕾斯 避孕套LOVE大胆爱10只",
+                "money": "￥12",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans3.jpg",
+                "title": "快克 复方氨酚烷胺胶囊 10粒",
+                "money": "￥14.8",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans4.jpg",
+                "title": "白云山 小柴胡颗粒 10g*10袋",
+                "money": "￥15.5",
+                "isgouwuche": false
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans5.jpg",
+                "title": "同仁堂 六味地黄丸 9g*10丸",
+                "money": "￥16.6",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans6.jpg",
+                "title": "九芝堂 六味地黄丸 200丸",
+                "money": "￥17.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans7.jpg",
+                "title": "毓婷 左炔诺孕酮片 0.75mg*2片",
+                "money": "￥14",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans8.jpg",
+                "title": "中美 史克肠虫清 阿苯达唑片 10片 肠虫清儿童口服打虫药成年蛔虫病蛲虫病",
+                "money": "￥14.5",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans9.jpg",
+                "title": "丁桂 丁桂儿脐贴 1.6g*2贴",
+                "money": "￥16.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans10.jpg",
+                "title": "京都念慈菴 金桔柠檬糖 2.5g*18粒 45g",
+                "money": "￥16",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans11.jpg",
+                "title": "明安旭 左旋肉碱黑咖啡(新)8g*10支",
+                "money": "￥19.8",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans12.jpg",
+                "title": "华素片 西地碘含片 1.5mg*30片",
+                "money": "￥16",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans13.jpg",
+                "title": "意可贴 醋酸地塞米松口腔贴片 0.3mg*5片",
+                "money": "￥25",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans14.jpg",
+                "title": "【2件减5元 4件减15元】妇炎洁 植物本草抑菌洗液 280ml",
+                "money": "￥19.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans15.jpg",
+                "title": "名流1g套（方包）10只装",
+                "money": "￥12",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans16.jpg",
+                "title": "白云山 明兴 清开灵胶囊 0.25g*24粒",
+                "money": "￥16",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans17.jpg",
+                "title": "三九/999 小儿氨酚黄那敏颗粒 6g*10袋 （甜橙味)",
+                "money": "￥12",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans18.jpg",
+                "title": "敖东 安神补脑液 10ml*10支",
+                "money": "￥20.5",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans19.jpg",
+                "title": "万通 益气养血口服液 10m*10支",
+                "money": "￥20.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans20.jpg",
+                "title": "福瑞达 舒腹贴膏 4片",
+                "money": "￥17.5",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans21.jpg",
+                "title": "整肠生 地衣芽孢杆菌活菌胶囊 0.25g*12粒",
+                "money": "￥18.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans22.jpg",
+                "title": "绿健园 维生素C压片糖果（甜橙味） 0.5g/片*60片",
+                "money": "￥19.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans23.jpg",
+                "title": "康美 茉莉花 20克/盒",
+                "money": "￥15",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans24.jpg",
+                "title": "佛慈 耳聋左慈丸 200粒",
+                "money": "￥18",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans25.jpg",
+                "title": "曼秀雷敦 毛孔控油净透洁面乳100g 控油深层洁面乳",
+                "money": "￥19.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans26.jpg",
+                "title": "杜蕾斯 避孕套LOVE大胆爱10只",
+                "money": "￥20",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans27.jpg",
+                "title": "康恩贝 肠炎宁片 0.42g*12片*2板",
+                "money": "￥19.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans28.jpg",
+                "title": "三公仔 小儿七星茶颗粒 7g*10袋",
+                "money": "￥18",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans30.jpg",
+                "title": "雷允上 上雷牌 山楂特等150g（生）",
+                "money": "￥18",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans31.jpg",
+                "title": "以岭 陈皮 陈皮干 50g",
+                "money": "￥18",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans32.jpg",
+                "title": "马应龙 麝香痔疮膏 20g",
+                "money": "￥19.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans13.jpg",
+                "title": "吗丁啉 多潘立酮片 10mg*30片",
+                "money": "￥20.9",
+                "isgouwuche": true
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "image": "/images/home/jinxuan_big(6).jpg",
+        "goods": [
+            {
+                "img": "/images/remaps/moreinfo/twoyuans1.jpg",
+                "title": "【买3送1 买5送2 】皇后牌 片仔癀珍珠霜 25g",
+                "money": "￥17.8",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans2.jpg",
+                "title": "杜蕾斯 避孕套LOVE大胆爱10只",
+                "money": "￥12",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans3.jpg",
+                "title": "快克 复方氨酚烷胺胶囊 10粒",
+                "money": "￥14.8",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans4.jpg",
+                "title": "白云山 小柴胡颗粒 10g*10袋",
+                "money": "￥15.5",
+                "isgouwuche": false
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans5.jpg",
+                "title": "同仁堂 六味地黄丸 9g*10丸",
+                "money": "￥16.6",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans6.jpg",
+                "title": "九芝堂 六味地黄丸 200丸",
+                "money": "￥17.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans7.jpg",
+                "title": "毓婷 左炔诺孕酮片 0.75mg*2片",
+                "money": "￥14",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans8.jpg",
+                "title": "中美 史克肠虫清 阿苯达唑片 10片 肠虫清儿童口服打虫药成年蛔虫病蛲虫病",
+                "money": "￥14.5",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans9.jpg",
+                "title": "丁桂 丁桂儿脐贴 1.6g*2贴",
+                "money": "￥16.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans10.jpg",
+                "title": "京都念慈菴 金桔柠檬糖 2.5g*18粒 45g",
+                "money": "￥16",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans11.jpg",
+                "title": "明安旭 左旋肉碱黑咖啡(新)8g*10支",
+                "money": "￥19.8",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans12.jpg",
+                "title": "华素片 西地碘含片 1.5mg*30片",
+                "money": "￥16",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans13.jpg",
+                "title": "意可贴 醋酸地塞米松口腔贴片 0.3mg*5片",
+                "money": "￥25",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans14.jpg",
+                "title": "【2件减5元 4件减15元】妇炎洁 植物本草抑菌洗液 280ml",
+                "money": "￥19.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans15.jpg",
+                "title": "名流1g套（方包）10只装",
+                "money": "￥12",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans16.jpg",
+                "title": "白云山 明兴 清开灵胶囊 0.25g*24粒",
+                "money": "￥16",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans17.jpg",
+                "title": "三九/999 小儿氨酚黄那敏颗粒 6g*10袋 （甜橙味)",
+                "money": "￥12",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans18.jpg",
+                "title": "敖东 安神补脑液 10ml*10支",
+                "money": "￥20.5",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans19.jpg",
+                "title": "万通 益气养血口服液 10m*10支",
+                "money": "￥20.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans20.jpg",
+                "title": "福瑞达 舒腹贴膏 4片",
+                "money": "￥17.5",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans21.jpg",
+                "title": "整肠生 地衣芽孢杆菌活菌胶囊 0.25g*12粒",
+                "money": "￥18.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans22.jpg",
+                "title": "绿健园 维生素C压片糖果（甜橙味） 0.5g/片*60片",
+                "money": "￥19.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans23.jpg",
+                "title": "康美 茉莉花 20克/盒",
+                "money": "￥15",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans24.jpg",
+                "title": "佛慈 耳聋左慈丸 200粒",
+                "money": "￥18",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans25.jpg",
+                "title": "曼秀雷敦 毛孔控油净透洁面乳100g 控油深层洁面乳",
+                "money": "￥19.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans26.jpg",
+                "title": "杜蕾斯 避孕套LOVE大胆爱10只",
+                "money": "￥20",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans27.jpg",
+                "title": "康恩贝 肠炎宁片 0.42g*12片*2板",
+                "money": "￥19.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans28.jpg",
+                "title": "三公仔 小儿七星茶颗粒 7g*10袋",
+                "money": "￥18",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans30.jpg",
+                "title": "雷允上 上雷牌 山楂特等150g（生）",
+                "money": "￥18",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans31.jpg",
+                "title": "以岭 陈皮 陈皮干 50g",
+                "money": "￥18",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans32.jpg",
+                "title": "马应龙 麝香痔疮膏 20g",
+                "money": "￥19.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans13.jpg",
+                "title": "吗丁啉 多潘立酮片 10mg*30片",
+                "money": "￥20.9",
+                "isgouwuche": true
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "image": "/images/home/jinxuan_big(7).jpg",
+        "goods": [
+            {
+                "img": "/images/remaps/moreinfo/twoyuans1.jpg",
+                "title": "【买3送1 买5送2 】皇后牌 片仔癀珍珠霜 25g",
+                "money": "￥17.8",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans2.jpg",
+                "title": "杜蕾斯 避孕套LOVE大胆爱10只",
+                "money": "￥12",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans3.jpg",
+                "title": "快克 复方氨酚烷胺胶囊 10粒",
+                "money": "￥14.8",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans4.jpg",
+                "title": "白云山 小柴胡颗粒 10g*10袋",
+                "money": "￥15.5",
+                "isgouwuche": false
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans5.jpg",
+                "title": "同仁堂 六味地黄丸 9g*10丸",
+                "money": "￥16.6",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans6.jpg",
+                "title": "九芝堂 六味地黄丸 200丸",
+                "money": "￥17.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans7.jpg",
+                "title": "毓婷 左炔诺孕酮片 0.75mg*2片",
+                "money": "￥14",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans8.jpg",
+                "title": "中美 史克肠虫清 阿苯达唑片 10片 肠虫清儿童口服打虫药成年蛔虫病蛲虫病",
+                "money": "￥14.5",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans9.jpg",
+                "title": "丁桂 丁桂儿脐贴 1.6g*2贴",
+                "money": "￥16.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans10.jpg",
+                "title": "京都念慈菴 金桔柠檬糖 2.5g*18粒 45g",
+                "money": "￥16",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans11.jpg",
+                "title": "明安旭 左旋肉碱黑咖啡(新)8g*10支",
+                "money": "￥19.8",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans12.jpg",
+                "title": "华素片 西地碘含片 1.5mg*30片",
+                "money": "￥16",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans13.jpg",
+                "title": "意可贴 醋酸地塞米松口腔贴片 0.3mg*5片",
+                "money": "￥25",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans14.jpg",
+                "title": "【2件减5元 4件减15元】妇炎洁 植物本草抑菌洗液 280ml",
+                "money": "￥19.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans15.jpg",
+                "title": "名流1g套（方包）10只装",
+                "money": "￥12",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans16.jpg",
+                "title": "白云山 明兴 清开灵胶囊 0.25g*24粒",
+                "money": "￥16",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans17.jpg",
+                "title": "三九/999 小儿氨酚黄那敏颗粒 6g*10袋 （甜橙味)",
+                "money": "￥12",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans18.jpg",
+                "title": "敖东 安神补脑液 10ml*10支",
+                "money": "￥20.5",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans19.jpg",
+                "title": "万通 益气养血口服液 10m*10支",
+                "money": "￥20.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans20.jpg",
+                "title": "福瑞达 舒腹贴膏 4片",
+                "money": "￥17.5",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans21.jpg",
+                "title": "整肠生 地衣芽孢杆菌活菌胶囊 0.25g*12粒",
+                "money": "￥18.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans22.jpg",
+                "title": "绿健园 维生素C压片糖果（甜橙味） 0.5g/片*60片",
+                "money": "￥19.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans23.jpg",
+                "title": "康美 茉莉花 20克/盒",
+                "money": "￥15",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans24.jpg",
+                "title": "佛慈 耳聋左慈丸 200粒",
+                "money": "￥18",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans25.jpg",
+                "title": "曼秀雷敦 毛孔控油净透洁面乳100g 控油深层洁面乳",
+                "money": "￥19.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans26.jpg",
+                "title": "杜蕾斯 避孕套LOVE大胆爱10只",
+                "money": "￥20",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans27.jpg",
+                "title": "康恩贝 肠炎宁片 0.42g*12片*2板",
+                "money": "￥19.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans28.jpg",
+                "title": "三公仔 小儿七星茶颗粒 7g*10袋",
+                "money": "￥18",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans30.jpg",
+                "title": "雷允上 上雷牌 山楂特等150g（生）",
+                "money": "￥18",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans31.jpg",
+                "title": "以岭 陈皮 陈皮干 50g",
+                "money": "￥18",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans32.jpg",
+                "title": "马应龙 麝香痔疮膏 20g",
+                "money": "￥19.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans13.jpg",
+                "title": "吗丁啉 多潘立酮片 10mg*30片",
+                "money": "￥20.9",
+                "isgouwuche": true
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "image": "/images/home/jinxuan_big(8).jpg",
+        "goods": [
+            {
+                "img": "/images/remaps/moreinfo/twoyuans1.jpg",
+                "title": "【买3送1 买5送2 】皇后牌 片仔癀珍珠霜 25g",
+                "money": "￥17.8",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans2.jpg",
+                "title": "杜蕾斯 避孕套LOVE大胆爱10只",
+                "money": "￥12",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans3.jpg",
+                "title": "快克 复方氨酚烷胺胶囊 10粒",
+                "money": "￥14.8",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans4.jpg",
+                "title": "白云山 小柴胡颗粒 10g*10袋",
+                "money": "￥15.5",
+                "isgouwuche": false
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans5.jpg",
+                "title": "同仁堂 六味地黄丸 9g*10丸",
+                "money": "￥16.6",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans6.jpg",
+                "title": "九芝堂 六味地黄丸 200丸",
+                "money": "￥17.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans7.jpg",
+                "title": "毓婷 左炔诺孕酮片 0.75mg*2片",
+                "money": "￥14",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans8.jpg",
+                "title": "中美 史克肠虫清 阿苯达唑片 10片 肠虫清儿童口服打虫药成年蛔虫病蛲虫病",
+                "money": "￥14.5",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans9.jpg",
+                "title": "丁桂 丁桂儿脐贴 1.6g*2贴",
+                "money": "￥16.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans10.jpg",
+                "title": "京都念慈菴 金桔柠檬糖 2.5g*18粒 45g",
+                "money": "￥16",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans11.jpg",
+                "title": "明安旭 左旋肉碱黑咖啡(新)8g*10支",
+                "money": "￥19.8",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans12.jpg",
+                "title": "华素片 西地碘含片 1.5mg*30片",
+                "money": "￥16",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans13.jpg",
+                "title": "意可贴 醋酸地塞米松口腔贴片 0.3mg*5片",
+                "money": "￥25",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans14.jpg",
+                "title": "【2件减5元 4件减15元】妇炎洁 植物本草抑菌洗液 280ml",
+                "money": "￥19.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans15.jpg",
+                "title": "名流1g套（方包）10只装",
+                "money": "￥12",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans16.jpg",
+                "title": "白云山 明兴 清开灵胶囊 0.25g*24粒",
+                "money": "￥16",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans17.jpg",
+                "title": "三九/999 小儿氨酚黄那敏颗粒 6g*10袋 （甜橙味)",
+                "money": "￥12",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans18.jpg",
+                "title": "敖东 安神补脑液 10ml*10支",
+                "money": "￥20.5",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans19.jpg",
+                "title": "万通 益气养血口服液 10m*10支",
+                "money": "￥20.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans20.jpg",
+                "title": "福瑞达 舒腹贴膏 4片",
+                "money": "￥17.5",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans21.jpg",
+                "title": "整肠生 地衣芽孢杆菌活菌胶囊 0.25g*12粒",
+                "money": "￥18.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans22.jpg",
+                "title": "绿健园 维生素C压片糖果（甜橙味） 0.5g/片*60片",
+                "money": "￥19.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans23.jpg",
+                "title": "康美 茉莉花 20克/盒",
+                "money": "￥15",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans24.jpg",
+                "title": "佛慈 耳聋左慈丸 200粒",
+                "money": "￥18",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans25.jpg",
+                "title": "曼秀雷敦 毛孔控油净透洁面乳100g 控油深层洁面乳",
+                "money": "￥19.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans26.jpg",
+                "title": "杜蕾斯 避孕套LOVE大胆爱10只",
+                "money": "￥20",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans27.jpg",
+                "title": "康恩贝 肠炎宁片 0.42g*12片*2板",
+                "money": "￥19.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans28.jpg",
+                "title": "三公仔 小儿七星茶颗粒 7g*10袋",
+                "money": "￥18",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans30.jpg",
+                "title": "雷允上 上雷牌 山楂特等150g（生）",
+                "money": "￥18",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans31.jpg",
+                "title": "以岭 陈皮 陈皮干 50g",
+                "money": "￥18",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans32.jpg",
+                "title": "马应龙 麝香痔疮膏 20g",
+                "money": "￥19.9",
+                "isgouwuche": true
+            },
+            {
+                "img": "/images/remaps/moreinfo/twoyuans13.jpg",
+                "title": "吗丁啉 多潘立酮片 10mg*30片",
+                "money": "￥20.9",
+                "isgouwuche": true
+            }
+        ]
+    }
+
+]

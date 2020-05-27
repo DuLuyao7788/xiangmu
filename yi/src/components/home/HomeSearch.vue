@@ -22,7 +22,7 @@ export default {
   props: {
     isFixedTop: {
       type: Boolean,
-      default: true
+      default: false
     }
   },
   methods: {
@@ -39,11 +39,10 @@ export default {
   width: 100%;
   justify-content: space-between;
   font-size: 14px;
-  /* color: #fff; */
-  color: #999;
   z-index: 9999;
-  /* background-color: transparent; */
-  background-color: #f7f7f7;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
 }
 .sou-suo .address1 {
   margin-left:1rem;
@@ -58,13 +57,14 @@ export default {
   line-height: 30px;
   text-align: center;
   text-decoration: none;
-  color: #999;
+  color: #fff;
   font-size: 14px;
 }
 .sou-suo .inner {
   width: 25rem;
   height: 17px;
   background-color: #fff;
+  color: #999;
   border-radius: 10px;
   font-size: 14px;
   text-align: left;
@@ -73,6 +73,7 @@ export default {
 .sou-suo .zixun {
   display: flex;
   flex-direction: row;
+  color: #fff;
   width: 70px;
   margin-left:2rem;
 }
@@ -84,7 +85,16 @@ export default {
   font-size: 25px;
 }
 .sou-suo.fixed-top {
-  position: fixed;
-  top: 0;
+  background-color: #f7f7f7;
+}
+.sou-suo.fixed-top .address{
+ color: #999
+}
+.sou-suo.fixed-top .inner{
+    color: #b8b8be;
+    background: hsla(0,0%,92.2%,.48);
+}
+.sou-suo.fixed-top .zixun{
+    color: #b8b8be;
 }
 </style>

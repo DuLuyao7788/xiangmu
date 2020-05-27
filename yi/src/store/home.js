@@ -5,6 +5,8 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
     state: {
+        // 类型导航
+        homedao:[],
         homegoodsInfo: [],
         illness:[],
         typeTui:[],
@@ -12,8 +14,16 @@ export default new Vuex.Store({
         oftenList:[],
         // 看过和买过的商品
         lookSearchGoods:[],
+        // 推荐
+        goodsInfo:[]
     },
     mutations: {
+        setHomedao(state, homedao) {
+            state.homedao = homedao
+        },
+        setGoodsInfo(state, goodsInfo) {
+            state.goodsInfo = goodsInfo
+        },
         setHomeGoodsInfo(state, homegoodsInfo) {
             state.homegoodsInfo = homegoodsInfo
         },
@@ -34,10 +44,32 @@ export default new Vuex.Store({
         }
     },
     actions: {
+        // 主页类型导航
+        getHomedao(state) {
+            return new Promise((resolve, reject) => {
+              axios.get('/data/home/homedao.json').then(results => {
+                    state.commit('setHomedao', results.data)
+                    resolve(results.data)
+                }).catch(error => {
+                    reject(error)
+                })
+            })
+        },
         getHomeGoodsInfo(state) {
             return new Promise((resolve, reject) => {
               axios.get('/data/home/goodInfo/goodsInfo1.json').then(results => {
                     state.commit('setHomeGoodsInfo', results.data)
+                    resolve(results.data)
+                }).catch(error => {
+                    reject(error)
+                })
+            })
+        },
+        // 推荐
+        getGoodsInfo(state) {
+            return new Promise((resolve, reject) => {
+              axios.get('/data/home/goodInfo/goosInfo.json').then(results => {
+                    state.commit('setGoodsInfo', results.data)
                     resolve(results.data)
                 }).catch(error => {
                     reject(error)
