@@ -1,3 +1,4 @@
+
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
@@ -5,6 +6,7 @@ import Remaps from '../views/remaps/Remaps.vue'
 import MoreInfoPage from '../views/remaps/morespage/MorePage.vue'
 import GoodsPage from '../views/remaps/goodspage/GoodsPage.vue'
 import GouWuChe from '../views/gouwuche/GouWuChe.vue'
+import Search from '../views/home/Search.vue'
 Vue.use(VueRouter)
 
   const routes = [
@@ -17,6 +19,16 @@ Vue.use(VueRouter)
     path: '/remaps',
     name: 'remaps',
     component: Remaps
+  },
+  {
+    path: '/my',
+    name: 'my',
+    component: () => import( '../views/My.vue')
+  },
+  {
+    path: '/findmedicine',
+    name: 'findmedicine',
+    component: () => import( '../views/FindMedicine')
   },
   {
     path: '/moreinfopage',
@@ -34,14 +46,10 @@ Vue.use(VueRouter)
     component: GouWuChe
   },
   {
-    path: '/my',
-    name: 'my',
-    component: () => import( '../views/My.vue')
-  },
-  {
-    path: '/findmedicine',
-    name: 'findmedicine',
-    component: () => import( '../views/FindMedicine')
+    // 搜索页面
+    path: '/search',
+    name: 'Search',
+    component: Search
   }
 ]
 

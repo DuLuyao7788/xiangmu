@@ -4,7 +4,7 @@
       <img src="/images/home/logo1.png" alt width="30px" height="30px" />
       <a href class="address">安徽</a>
     </div>
-    <div class="inner">
+    <div class="inner" @click="to('/search')">
       <i class="el-icon-search el-icon--left"></i>
       <span>请输入商品名称</span>
     </div>
@@ -22,20 +22,27 @@ export default {
   props: {
     isFixedTop: {
       type: Boolean,
-      default: true
+      default: false
+    }
+  },
+  methods: {
+    to(router){
+      this.$router.push({path:router})
     }
   }
 };
 </script>
 <style  scoped>
 .sou-suo {
+  padding: .5rem 0;
   display: flex;
   width: 100%;
   justify-content: space-between;
   font-size: 14px;
-  color: #fff;
   z-index: 9999;
   background-color: transparent;
+  position: fixed;
+  top: 0;
 }
 .sou-suo .address1 {
   margin-left:1rem;
@@ -50,13 +57,14 @@ export default {
   line-height: 30px;
   text-align: center;
   text-decoration: none;
-  color: #999;
+  color: #fff;
   font-size: 14px;
 }
 .sou-suo .inner {
   width: 25rem;
   height: 17px;
   background-color: #fff;
+  color: #999;
   border-radius: 10px;
   font-size: 14px;
   text-align: left;
@@ -65,6 +73,7 @@ export default {
 .sou-suo .zixun {
   display: flex;
   flex-direction: row;
+  color: #fff;
   width: 70px;
   margin-left:2rem;
 }
@@ -76,7 +85,16 @@ export default {
   font-size: 25px;
 }
 .sou-suo.fixed-top {
-  position: fixed;
-  top: 0;
+  background-color: #f7f7f7;
+}
+.sou-suo.fixed-top .address{
+ color: #999
+}
+.sou-suo.fixed-top .inner{
+    color: #b8b8be;
+    background: hsla(0,0%,92.2%,.48);
+}
+.sou-suo.fixed-top .zixun{
+    color: #b8b8be;
 }
 </style>

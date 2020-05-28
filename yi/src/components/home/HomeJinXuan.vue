@@ -1,29 +1,11 @@
 <template>
     <div class="homejin">
        <HomeTitle img="/images/home/jin_logo.png" title="精选专题"></HomeTitle>
-        <div class="jinxuan">
+        <div class="jinxuan" v-for="goods in goodsInfo" :key="goods.index">
             <div>
-                <el-image src="/images/home/jinxuan_big(1).jpg" style="width:100%;heigth:100%"></el-image>
+                <el-image :src="goods.image" style="width:100%;heigth:100%"></el-image>
             </div>
-            <HomeHeathGoods :goodsInfo1="goodsInfo1"></HomeHeathGoods>
-        </div>
-         <div>
-            <div>
-                <el-image src="/images/home/jinxuan_big(1).jpg" style="width:100%;heigth:100%"></el-image>
-            </div>
-            <HomeHeathGoods :goodsInfo1="goodsInfo1"></HomeHeathGoods>
-        </div>
-         <div>
-            <div>
-                <el-image src="/images/home/jinxuan_big(1).jpg" style="width:100%;heigth:100%"></el-image>
-            </div>
-            <HomeHeathGoods :goodsInfo1="goodsInfo1"></HomeHeathGoods>
-        </div>
-         <div>
-            <div>
-                <el-image src="/images/home/jinxuan_big(1).jpg" style="width:100%;heigth:100%"></el-image>
-            </div>
-            <HomeHeathGoods :goodsInfo1="goodsInfo1"></HomeHeathGoods>
+            <HomeHeathGoods :goodsInfo1="goods.goods"></HomeHeathGoods>
         </div>
     </div>
 </template>
@@ -36,7 +18,7 @@ export default {
         HomeTitle
     },
       props:{
-    goodsInfo1:{
+    goodsInfo:{
       type:Array,
       default:function(){
         return[];
