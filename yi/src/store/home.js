@@ -59,6 +59,7 @@ export default new Vuex.Store({
             return new Promise((resolve, reject) => {
                 axios.get('/data/home/tuiList.json').then(results => {
                       state.commit('setTuiList', results.data)
+                    
                       resolve(results.data)
                   }).catch(error => {
                       reject(error)

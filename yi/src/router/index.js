@@ -33,6 +33,16 @@ Vue.use(VueRouter)
     name: 'GouWuChe',
     component: GouWuChe
   },
+  {
+    path: '/my',
+    name: 'my',
+    component: () => import( '../views/My.vue')
+  },
+  {
+    path: '/findmedicine',
+    name: 'findmedicine',
+    component: () => import( '../views/FindMedicine')
+  }
 ]
 
 const router = new VueRouter({

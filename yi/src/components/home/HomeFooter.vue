@@ -8,7 +8,7 @@
         </div>
       </el-col>
       <el-col>
-        <div class="logo" :class="{active:active==2}" @click="$router.push({ path: '/' })">
+        <div class="logo" :class="{active:active==2}" @click="$router.push({ path: '/findmedicine' })">
           <i class="el-icon-discover"></i>
           <div>找药</div>
         </div>
@@ -25,7 +25,7 @@
         </div>
       </el-col>
       <el-col >
-        <div class="logo" :class="{active:active==5}" @click="$router.push({ path: '/' })">
+        <div class="logo" :class="{active:active==5}" @click="$router.push({ path: '/my' })">
           <i class="el-icon-user"></i>
           <div>我的</div>
         </div>
@@ -58,10 +58,10 @@ export default {
 .homefooter i {
   font-size: 2.5rem;
 }
-.logo{
+.homefooter .logo{
     margin-top: 10px;
 }
-.active {
+.homefooter .active {
   color:#f66;
 }
 </style>
